@@ -26,7 +26,7 @@
     // Link color
 	wp.customize( 'link_color', function( value ) {
         value.bind( function( to ) {
-            $( '.entry-content, .entry-summary a, .entry-meta a, .site-footer a' ).css( 'color', to );
+            $( '.entry-content a, .entry-summary a, .entry-meta a, .paging-navigation a, .post-navigation a, .comments-area a, .site-footer a' ).css( 'color', to );
         } );
     } );
 
