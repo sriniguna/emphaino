@@ -101,7 +101,6 @@ article.comment {
 	@include blocks-box;
 }
 
-
 .comment-author {
 	cite {
 		position: relative;
@@ -119,6 +118,13 @@ article.comment {
 		left: 10px;
 		left: 1rem;
 	font-size: 12px; font-size: 1.2rem;
+}
+
+.no-comment-avatars {
+	.comment-author cite,
+	.comment-meta {
+		position: static;
+	}
 }
 
 

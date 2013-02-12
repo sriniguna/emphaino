@@ -4,8 +4,6 @@
  * @package Emphaino
  * @since Emphaino 1.0
  */
-
-
 /* =Reset
 -------------------------------------------------------------- */
 html, body, div, span, applet, object, iframe,
@@ -16,26 +14,30 @@ small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-	border: 0;
-	font-family: inherit;
-	font-size: 100%;
-	font-style: inherit;
-	font-weight: inherit;
-	margin: 0;
-	outline: 0;
-	padding: 0;
-	vertical-align: baseline;
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
 }
 
 html {
-	font-size: 62.5%; 	/* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
-	overflow-y: scroll; /* Keeps page centred in all browsers regardless of content height */
-	-webkit-text-size-adjust: 100%;	/* Prevents iOS text size adjust after orientation change, without disabling user zoom */
-	-ms-text-size-adjust: 100%;	/* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+  font-size: 62.5%;
+  /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+  overflow-y: scroll;
+  /* Keeps page centred in all browsers regardless of content height */
+  -webkit-text-size-adjust: 100%;
+  /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+  -ms-text-size-adjust: 100%;
+  /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 
 body {
-	background: #fff;
+  background: #fff;
 }
 
 article,
@@ -48,84 +50,87 @@ header,
 hgroup,
 nav,
 section {
-	display: block;
+  display: block;
 }
 
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 
-table {	/* tables still need 'cellspacing="0"' in the markup */
-	border-collapse: separate;
-	border-spacing: 0;
+table {
+  /* tables still need 'cellspacing="0"' in the markup */
+  border-collapse: separate;
+  border-spacing: 0;
 }
 
 caption, th, td {
-	font-weight: normal;
-	text-align: left;
+  font-weight: normal;
+  text-align: left;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: "";
+  content: "";
 }
 
 blockquote, q {
-	quotes: "" "";
+  quotes: "" "";
 }
 
 a:focus {
-	outline: thin dotted;
+  outline: thin dotted;
 }
 
 a:hover,
-a:active {	/* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
-	outline: 0;
+a:active {
+  /* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
+  outline: 0;
 }
 
 a img {
-	border: 0;
+  border: 0;
 }
 
 /* Alignment */
 .alignleft {
-	display: inline;
-	float: left;
-	margin-right: 1.5em;
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
 }
 
 .alignright {
-	display: inline;
-	float: right;
-	margin-left: 1.5em;
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
 }
 
 .aligncenter {
-	clear: both;
-	display: block;
-	margin: 0 auto;
+  clear: both;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Text meant only for screen readers */
 .assistive-text {
-	clip: rect(1px 1px 1px 1px);	/* IE6, IE7 */
-	clip: rect(1px, 1px, 1px, 1px);
-	position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
 }
 
 /* Clearfix hack. See http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before,
 .clearfix:after {
-	content: " ";
-	display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-	clear: both;
+  clear: both;
 }
 
 .cf {
-	*zoom: 1;
+  *zoom: 1;
 }
 
 /* =Global
@@ -135,232 +140,238 @@ button,
 input,
 select,
 textarea {
-	color: #444;
-	font-family: "PT Sans", Verdana, Geneva, sans-serif;
-	font-size: 16px;
-	font-size: 1.6rem;
-	line-height: 1.5;
+  color: #444;
+  font-family: "PT Sans", Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-	clear: both;
-	color: #555555;
-	font-family: "Bree Serif", Georgia, serif;
-	text-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+  clear: both;
+  color: #555555;
+  font-family: "Bree Serif", Georgia, serif;
+  text-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
 }
 
 hr {
-	background-color: #ccc;
-	border: 0;
-	height: 1px;
-	margin-bottom: 1.5em;
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
 }
 
 /* Text elements */
 p, ul, ol {
-	margin-bottom: 1.5em;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	hyphens: auto;
-	word-wrap: break-word;
+  margin-bottom: 1.5em;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
 ul li:before {
-	content: "\203A \0020";
+  content: "\203A \0020";
 }
 
 ol, ol ol ol ol {
-	list-style: decimal inside;
+  list-style: decimal inside;
 }
 
 ol ol {
-	list-style: lower-roman inside;
+  list-style: lower-roman inside;
 }
 
 ol ol ol {
-	list-style: lower-alpha inside;
+  list-style: lower-alpha inside;
 }
 
 ul ul, ol ol, ul ol, ol ul {
-	margin-bottom: 0;
-	margin-left: 1em;
+  margin-bottom: 0;
+  margin-left: 1em;
 }
 
 dt {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 dd {
-	margin: 0 1.5em 1.5em;
+  margin: 0 1.5em 1.5em;
 }
 
 b, strong {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 dfn, cite, em, i {
-	font-style: italic;
+  font-style: italic;
 }
 
 blockquote, pre {
-	margin: 0 0 1em;
-	padding: 10px;
-	padding: 1rem;
-	background: #f8f8f8;
-	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
-	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
-	box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+  margin: 0 0 1em;
+  padding: 10px;
+  padding: 1rem;
+  background: #f8f8f8;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
 }
 
 blockquote {
-	padding-left: 4em;
-	position: relative;
+  padding-left: 4em;
+  position: relative;
 }
 blockquote:before {
-	position: absolute;
-	left: 10px;
-	left: 1rem;
-	font-family: 'fontello';
-	font-style: normal;
-	font-weight: normal;
-	speak: none;
-	display: inline-block;
-	text-decoration: inherit;
-	width: 1em;
-	margin: 0 0.2em;
-	text-align: center;
-	opacity: 0.8;
-	line-height: 1em;
-	font-size: 2em;
-	opacity: 0.3;
-	content: '\275d';
+  position: absolute;
+  left: 10px;
+  left: 1rem;
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin: 0 0.2em;
+  text-align: center;
+  opacity: 0.8;
+  line-height: 1em;
+  font-size: 2em;
+  opacity: 0.3;
+  content: '\275d';
 }
 blockquote p:last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 address {
-	margin: 0 0 1em;
+  margin: 0 0 1em;
 }
 
 pre {
-	font-family: "Courier 10 Pitch", Courier, monospace;
-	overflow: auto;
-	max-width: 100%;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  overflow: auto;
+  max-width: 100%;
 }
 
 code, kbd, tt, var {
-	background: #f8f8f8;
-	border: 1px solid #dddddd;
-	font: 0.9em Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  background: #f8f8f8;
+  border: 1px solid #dddddd;
+  font: 0.9em Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
 abbr, acronym {
-	border-bottom: 1px dotted #666;
-	cursor: help;
+  border-bottom: 1px dotted #666;
+  cursor: help;
 }
 
 sup,
 sub {
-	font-size: 75%;
-	height: 0;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
+  font-size: 75%;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
 sup {
-	bottom: 1ex;
+  bottom: 1ex;
 }
 
 sub {
-	top: .5ex;
+  top: .5ex;
 }
 
 small {
-	font-size: 75%;
+  font-size: 75%;
 }
 
 big {
-	font-size: 125%;
+  font-size: 125%;
 }
 
 figure {
-	margin: 0;
+  margin: 0;
 }
 
 table {
-	margin: 0 0 1.5em;
-	width: 100%;
-	border-width: 0 1px 1px 0;
-	border-style: solid;
-	border-color: #dddddd;
-	background: #f8f8f8;
+  margin: 0 0 1.5em;
+  width: 100%;
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: #dddddd;
+  background: #f8f8f8;
 }
 
 th, td {
-	padding: 5px 10px;
-	padding: 0.5rem 1rem;
-	border-width: 1px 0 0 1px;
-	border-style: solid;
-	border-color: #ddd;
+  padding: 5px 10px;
+  padding: 0.5rem 1rem;
+  border-width: 1px 0 0 1px;
+  border-style: solid;
+  border-color: #ddd;
 }
 
 th {
-	background: #eee;
-	font-weight: bold;
+  background: #eee;
+  font-weight: bold;
 }
 
 button,
 input,
 select,
 textarea {
-	font-size: 100%;	/* Corrects font size not being inherited in all browsers */
-	margin: 0;	/* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
-	vertical-align: baseline;	/* Improves appearance and consistency in all browsers */
-	*vertical-align: middle;	/* Improves appearance and consistency in all browsers */
+  font-size: 100%;
+  /* Corrects font size not being inherited in all browsers */
+  margin: 0;
+  /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
+  vertical-align: baseline;
+  /* Improves appearance and consistency in all browsers */
+  *vertical-align: middle;
+  /* Improves appearance and consistency in all browsers */
 }
 
 button,
 input {
-	line-height: normal;
-	/* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
-	*overflow: visible;
-	/* Corrects inner spacing displayed oddly in IE6/7 */
+  line-height: normal;
+  /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
+  *overflow: visible;
+  /* Corrects inner spacing displayed oddly in IE6/7 */
 }
 
 button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid #ccc;
-	border-color: #ccc #ccc #bbb #ccc;
-	border-radius: 3px;
-	background: #e6e6e6;
-	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-	color: rgba(0, 0, 0, 0.8);
-	cursor: pointer;	/* Improves usability and consistency of cursor style between image-type 'input' and others */
-	-webkit-appearance: button;	/* Corrects inability to style clickable 'input' types in iOS */
-	line-height: 2em;
-	height: 2.1em;
-	padding: 0 1em;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  border-color: #ccc #ccc #bbb #ccc;
+  border-radius: 3px;
+  background: #e6e6e6;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  /* Improves usability and consistency of cursor style between image-type 'input' and others */
+  -webkit-appearance: button;
+  /* Corrects inability to style clickable 'input' types in iOS */
+  line-height: 2em;
+  height: 2.1em;
+  padding: 0 1em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
 button:hover,
 html input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa #bbb;
-	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
-	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+  border-color: #ccc #bbb #aaa #bbb;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
 }
 
 button:focus,
@@ -371,141 +382,147 @@ button:active,
 html input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-	border-color: #aaa #bbb #bbb #bbb;
-	-webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
-	-moz-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
-	box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+  border-color: #aaa #bbb #bbb #bbb;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
 input[type="checkbox"],
 input[type="radio"] {
-	box-sizing: border-box;
-	/* Addresses box sizing set to content-box in IE8/9 */
-	padding: 0;
-	/* Addresses excess padding in IE8/9 */
+  box-sizing: border-box;
+  /* Addresses box sizing set to content-box in IE8/9 */
+  padding: 0;
+  /* Addresses excess padding in IE8/9 */
 }
 
 input[type="search"] {
-	-webkit-appearance: textfield;	/* Addresses appearance set to searchfield in S5, Chrome */
-	-moz-box-sizing: content-box;
-	-webkit-box-sizing: content-box;	/* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
-	box-sizing: content-box;
+  -webkit-appearance: textfield;
+  /* Addresses appearance set to searchfield in S5, Chrome */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
+  box-sizing: content-box;
 }
 
-input[type="search"]::-webkit-search-decoration {	/* Corrects inner padding displayed oddly in S5, Chrome on OSX */
-	-webkit-appearance: none;
+input[type="search"]::-webkit-search-decoration {
+  /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+  -webkit-appearance: none;
 }
 
 button::-moz-focus-inner,
-input::-moz-focus-inner {	/* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
-	border: 0;
-	padding: 0;
+input::-moz-focus-inner {
+  /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+  border: 0;
+  padding: 0;
 }
 
 input[type=text],
 input[type=email],
 textarea {
-	color: #666;
-	border: 1px solid #ccc;
-	border-radius: 3px;
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
 input[type=text]:focus,
 input[type=email]:focus,
 textarea:focus {
-	color: #111;
+  color: #111;
 }
 
 input[type=text],
 input[type=email] {
-	padding: 3px;
+  padding: 3px;
 }
 
 textarea {
-	overflow: auto;	/* Removes default vertical scrollbar in IE6/7/8/9 */
-	padding-left: 3px;
-	vertical-align: top;	/* Improves readability and alignment in all browsers */
-	width: 98%;
+  overflow: auto;
+  /* Removes default vertical scrollbar in IE6/7/8/9 */
+  padding-left: 3px;
+  vertical-align: top;
+  /* Improves readability and alignment in all browsers */
+  width: 98%;
 }
 
 /* Links */
 a {
-	color: #388ca4;
-	text-decoration: none;
+  color: #388ca4;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
-	opacity: 0.95;
+  opacity: 0.95;
 }
 
 html {
-	max-width: 620px;
-	overflow-y: visible;
+  max-width: 620px;
+  overflow-y: visible;
 }
 
 body {
-	padding: 20px;
-	font-size: 14px;
+  padding: 20px;
+  font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	margin: 0 0 10px;
+  margin: 0 0 10px;
 }
 
 h1 {
-	font-size: 24px;
-	border-bottom: 1px solid #dddddd;
+  font-size: 24px;
+  border-bottom: 1px solid #dddddd;
 }
 
 h2 {
-	font-size: 22px;
+  font-size: 22px;
 }
 
 h3 {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 h4 {
-	font: bold 14px "PT Sans", Verdana, Geneva, sans-serif;
-	text-transform: uppercase;
+  font: bold 14px "PT Sans", Verdana, Geneva, sans-serif;
+  text-transform: uppercase;
 }
 
 h5 {
-	font: bold 12px "PT Sans", Verdana, Geneva, sans-serif;
-	text-transform: uppercase;
+  font: bold 12px "PT Sans", Verdana, Geneva, sans-serif;
+  text-transform: uppercase;
 }
 
 h6 {
-	font: bold 12px "PT Sans", Verdana, Geneva, sans-serif;
+  font: bold 12px "PT Sans", Verdana, Geneva, sans-serif;
 }
 
 .wp-caption {
-	border: 0;
-	background: transparent;
-	max-width: 100%;
+  border: 0;
+  background: transparent;
+  max-width: 100%;
 }
 
 .wp-caption, .entry-attachment {
-	margin-bottom: 1.5em;
-	padding: 0;
-	width: 100%;
+  margin-bottom: 1.5em;
+  padding: 0;
+  width: 100%;
 }
 .wp-caption img, .entry-attachment img {
-	background: #f8f8f8;
-	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
-	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
-	box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
-	width: 100%;
+  background: #f8f8f8;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+  width: 100%;
 }
 
 .wp-caption-text, .wp-caption-dd, .entry-attachment .entry-caption p {
-	background: #f8f8f8;
-	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
-	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
-	box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
-	padding: 2px 5px;
-	margin: 4px 0 0;
-	text-align: center;
+  background: #f8f8f8;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+  padding: 2px 5px;
+  margin: 4px 0 0;
+  text-align: center;
 }

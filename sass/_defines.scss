@@ -200,6 +200,17 @@ $blocks-bg-color: #f8f8f8;
 		top: -2rem;
 		font-size: 12px; font-size: 1.2rem;
 	}
+
+	.no-comment-avatars {
+		article.comment {
+			padding-left: 10px;
+			padding-left: 1rem;
+		}
+		.comment-meta {
+			position: relative;
+		}
+	}
+
 	#respond {
 		font-size: 14px;
 		font-size: 1.4rem;
