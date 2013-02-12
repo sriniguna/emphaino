@@ -8,6 +8,7 @@ Changelog
 * Fixed link color issues in customizer
 * Fix to handle condition where avatars are turned off in 'Discussion Settings'
 * Updated screenshot
+* Merged changes from _s
 
 
 2013-02-04: Version 1.0
