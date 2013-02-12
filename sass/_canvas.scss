@@ -1,0 +1,34 @@
+/* =Canvas
+----------------------------------------------- */
+body {
+	padding: 0 10px;
+	padding: 0 1rem;
+}
+
+#page {
+	width: auto;
+	max-width: 940px;
+	max-width: 94rem;
+	margin: 0 auto;
+}
+
+.content-area {
+	margin: 0 auto 30px;
+	margin: 0 auto 3rem;
+	max-width: 300px;
+	max-width: 30rem;
+}
+.single,
+.page,
+.one-col-excerpts,
+.one-col-full-posts,
+.no-js  {
+	.content-area {
+		max-width: 620px;
+		max-width: 62rem;
+	}
+}
+
+.site-footer {
+	clear: both;
+}

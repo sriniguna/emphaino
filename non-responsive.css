@@ -1,0 +1,349 @@
+/**
+ * Renders a non-responsive layout for all screens
+ *
+ * @package Emphaino
+ * @since Emphaino 1.0
+ */
+ 
+#page {
+	width: 940px;
+	width: 94rem;
+}
+
+.js #dynamic-grid {
+	margin: -10px -10px 20px;
+	margin: -1rem -1rem 2rem;
+}
+.js #dynamic-grid .hentry {
+	float: left;
+	width: 280px;
+	width: 28rem;
+	margin: 10px;
+	margin: 1rem;
+	padding: 10px;
+	padding: 1rem;
+}
+.js #dynamic-grid .hentry .entry-header {
+	text-align: left;
+}
+
+body {
+	padding: 0 20px;
+	padding: 0 2rem;
+}
+
+.site-header .header-main {
+	padding: 30px 20px 32px;
+	padding: 3rem 2rem 3.2rem;
+}
+.site-header .site-title {
+	font-size: 40px;
+	font-size: 4rem;
+}
+.site-header .site-description {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.has-logo-image .site-header .header-main {
+	padding: 30px 20px;
+	padding: 3rem 2rem;
+}
+.has-logo-image .site-header .header-main img {
+	max-height: 80px;
+	max-height: 8rem;
+	width: auto;
+}
+
+.custom-header.no-logo-image.header-text-hidden .site-header .header-main {
+	min-height: 78px;
+	min-height: 7.8rem;
+}
+
+.page-header,
+.hentry,
+.comments-area,
+.post-navigation {
+	padding: 20px;
+	padding: 2rem;
+}
+
+.single .entry-title,
+body.page .entry-title,
+.one-col-excerpts .entry-title,
+.one-col-full-posts .entry-title,
+.not-found .entry-title,
+.no-js .hentry .entry-title {
+	font-size: 27px;
+	font-size: 2.7rem;
+}
+.single .entry-content,
+.single .entry-summary,
+.single .comment-content,
+.single .comments-area,
+.single .pingback,
+body.page .entry-content,
+body.page .entry-summary,
+body.page .comment-content,
+body.page .comments-area,
+body.page .pingback,
+.one-col-excerpts .entry-content,
+.one-col-excerpts .entry-summary,
+.one-col-excerpts .comment-content,
+.one-col-excerpts .comments-area,
+.one-col-excerpts .pingback,
+.one-col-full-posts .entry-content,
+.one-col-full-posts .entry-summary,
+.one-col-full-posts .comment-content,
+.one-col-full-posts .comments-area,
+.one-col-full-posts .pingback,
+.not-found .entry-content,
+.not-found .entry-summary,
+.not-found .comment-content,
+.not-found .comments-area,
+.not-found .pingback,
+.no-js .hentry .entry-content,
+.no-js .hentry .entry-summary,
+.no-js .hentry .comment-content,
+.no-js .hentry .comments-area,
+.no-js .hentry .pingback {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+.single .entry-content h1,
+.single .entry-summary h1,
+.single .comment-content h1,
+.single .comments-area h1,
+.single .pingback h1,
+body.page .entry-content h1,
+body.page .entry-summary h1,
+body.page .comment-content h1,
+body.page .comments-area h1,
+body.page .pingback h1,
+.one-col-excerpts .entry-content h1,
+.one-col-excerpts .entry-summary h1,
+.one-col-excerpts .comment-content h1,
+.one-col-excerpts .comments-area h1,
+.one-col-excerpts .pingback h1,
+.one-col-full-posts .entry-content h1,
+.one-col-full-posts .entry-summary h1,
+.one-col-full-posts .comment-content h1,
+.one-col-full-posts .comments-area h1,
+.one-col-full-posts .pingback h1,
+.not-found .entry-content h1,
+.not-found .entry-summary h1,
+.not-found .comment-content h1,
+.not-found .comments-area h1,
+.not-found .pingback h1,
+.no-js .hentry .entry-content h1,
+.no-js .hentry .entry-summary h1,
+.no-js .hentry .comment-content h1,
+.no-js .hentry .comments-area h1,
+.no-js .hentry .pingback h1 {
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+.single .entry-content h2,
+.single .entry-summary h2,
+.single .comment-content h2,
+.single .comments-area h2,
+.single .pingback h2,
+body.page .entry-content h2,
+body.page .entry-summary h2,
+body.page .comment-content h2,
+body.page .comments-area h2,
+body.page .pingback h2,
+.one-col-excerpts .entry-content h2,
+.one-col-excerpts .entry-summary h2,
+.one-col-excerpts .comment-content h2,
+.one-col-excerpts .comments-area h2,
+.one-col-excerpts .pingback h2,
+.one-col-full-posts .entry-content h2,
+.one-col-full-posts .entry-summary h2,
+.one-col-full-posts .comment-content h2,
+.one-col-full-posts .comments-area h2,
+.one-col-full-posts .pingback h2,
+.not-found .entry-content h2,
+.not-found .entry-summary h2,
+.not-found .comment-content h2,
+.not-found .comments-area h2,
+.not-found .pingback h2,
+.no-js .hentry .entry-content h2,
+.no-js .hentry .entry-summary h2,
+.no-js .hentry .comment-content h2,
+.no-js .hentry .comments-area h2,
+.no-js .hentry .pingback h2 {
+	font-size: 22px;
+	font-size: 2.2rem;
+}
+.single .entry-content h3,
+.single .entry-summary h3,
+.single .comment-content h3,
+.single .comments-area h3,
+.single .pingback h3,
+body.page .entry-content h3,
+body.page .entry-summary h3,
+body.page .comment-content h3,
+body.page .comments-area h3,
+body.page .pingback h3,
+.one-col-excerpts .entry-content h3,
+.one-col-excerpts .entry-summary h3,
+.one-col-excerpts .comment-content h3,
+.one-col-excerpts .comments-area h3,
+.one-col-excerpts .pingback h3,
+.one-col-full-posts .entry-content h3,
+.one-col-full-posts .entry-summary h3,
+.one-col-full-posts .comment-content h3,
+.one-col-full-posts .comments-area h3,
+.one-col-full-posts .pingback h3,
+.not-found .entry-content h3,
+.not-found .entry-summary h3,
+.not-found .comment-content h3,
+.not-found .comments-area h3,
+.not-found .pingback h3,
+.no-js .hentry .entry-content h3,
+.no-js .hentry .entry-summary h3,
+.no-js .hentry .comment-content h3,
+.no-js .hentry .comments-area h3,
+.no-js .hentry .pingback h3 {
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+.single .entry-content h4,
+.single .entry-summary h4,
+.single .comment-content h4,
+.single .comments-area h4,
+.single .pingback h4,
+body.page .entry-content h4,
+body.page .entry-summary h4,
+body.page .comment-content h4,
+body.page .comments-area h4,
+body.page .pingback h4,
+.one-col-excerpts .entry-content h4,
+.one-col-excerpts .entry-summary h4,
+.one-col-excerpts .comment-content h4,
+.one-col-excerpts .comments-area h4,
+.one-col-excerpts .pingback h4,
+.one-col-full-posts .entry-content h4,
+.one-col-full-posts .entry-summary h4,
+.one-col-full-posts .comment-content h4,
+.one-col-full-posts .comments-area h4,
+.one-col-full-posts .pingback h4,
+.not-found .entry-content h4,
+.not-found .entry-summary h4,
+.not-found .comment-content h4,
+.not-found .comments-area h4,
+.not-found .pingback h4,
+.no-js .hentry .entry-content h4,
+.no-js .hentry .entry-summary h4,
+.no-js .hentry .comment-content h4,
+.no-js .hentry .comments-area h4,
+.no-js .hentry .pingback h4 {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.wp-post-image.attachment-post-thumbnail {
+	width: 150px;
+	width: 15rem;
+}
+
+.comments-title {
+	font-size: 22px;
+	font-size: 2.2rem;
+}
+
+#reply-title {
+	font-size: 20px;
+	font-size: 2rem;
+}
+
+ol.commentlist ul.children {
+	margin-left: 40px;
+	margin-left: 4rem;
+}
+ol.commentlist ul.children > li:before {
+	font-size: 2.4rem;
+	left: -3.6rem;
+}
+
+.pingback {
+	margin: 0 0 20px;
+	margin: 0 0 2rem;
+}
+.pingback p:before {
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+article.comment {
+	margin: 0 0 20px;
+	margin: 0 0 2rem;
+	padding-left: 100px;
+	padding-left: 10rem;
+	min-height: 80px;
+	min-height: 8rem;
+}
+article.comment footer {
+	padding: 0 0 3px;
+	padding: 0 0 0.3rem;
+}
+article.comment footer em {
+	left: 100px;
+	left: 10rem;
+}
+
+.avatar {
+	width: 80px;
+	width: 8rem;
+	position: absolute;
+	top: 10px;
+	top: 1rem;
+	left: 10px;
+	left: 1rem;
+	background: #f8f8f8;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+}
+
+.comment-author cite {
+	position: static;
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+.comment-meta {
+	float: right;
+	left: 0;
+	top: -20px;
+	top: -2rem;
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+#respond {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.content-area {
+	max-width: 940px;
+	max-width: 94rem;
+}
+
+#footer-widgets {
+	width: 940px;
+	width: 94rem;
+}
+
+#bottom-bar .footer-text {
+	width: 48%;
+	float: left;
+	text-align: left;
+}
+#bottom-bar .site-info {
+	width: 48%;
+	float: right;
+	text-align: right;
+}

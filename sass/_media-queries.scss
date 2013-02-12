@@ -1,0 +1,55 @@
+/* =Media queries
+----------------------------------------------- */
+
+/* 4col, 320px ( 4 * 80px ) */
+@media screen and (min-width: 20em) {
+	@include entries-4col;
+}
+
+/* 6col, 500px ( 10px + ( 6 * 80px ) + 10px ) */
+@media screen and (min-width: 31.25em) { 
+	@include body-6col;
+	@include footer-6col;
+}
+
+/* 8col, 660px ( 10px + ( 8 * 80px ) + 10px ) */
+@media screen and (min-width: 41.25em) {
+	@include content-8col;
+	@include bottom-bar-8col;
+}
+
+/* 9col, 740px ( 10px + ( 9 * 80px ) + 10px ) */
+@media screen and (min-width: 46.25em) {
+	@include footer-9col;
+}
+
+/* 12col, 980px ( 10px + ( 12 * 80px ) + 10px ) */
+@media screen and (min-width: 61.25em) {
+	@include content-12col;
+	@include footer-12col;
+}
+
+/* Uncomment the following lines if you want to make total use of the screen real estate in wider screens */
+
+/* @media screen and (min-width: 81.25em) {
+	#page,
+	.content-area {
+		max-width: 1260px;
+		max-width: 126rem;
+	}
+	#footer-widgets {
+		width: 1180px;
+	}
+}
+
+@media screen and (min-width: 101.25em) {
+	#page,
+	.content-area {
+		max-width: 1580px;
+		max-width: 158rem;
+	}
+	#footer-widgets {
+		width: 1420px;
+	}
+}
+ */

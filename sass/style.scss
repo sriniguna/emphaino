@@ -1,0 +1,33 @@
+/*
+Theme Name: Emphaino
+Theme URI: http://srinig.com/wordpress/themes/emphaino/
+Author: Srini
+Author URI: http://srinig.com/
+Description: The word 'emphaino' means "to show in, to exhibit;" (en, "in," phaino, "to cause to shine"). May your thoughts, your work, your art shine with Emphaino, a modern, responsive WordPress theme. Clean design, emphasis on content. Customization through the interactive WP customizer interface. Compatible with WordPress 3.5 or above.
+Version: 1.0 beta
+License: GNU General Public License
+License URI: license.txt
+Tags: gray, white, light, one-column, three-columns, flexible-width, blavatar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, photoblogging
+
+Emphaino is based on the _s theme (http://underscores.me/).
+Upto date with _s commit fff4b81508 (Jan 23, 2013).
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+@import "compass";
+@import "defines";
+@import "reset";
+@import "globals";
+@import "helpers";
+@import "canvas";
+@import "header";
+@import "menu";
+@import "content";
+@import "comments-area";
+@import "widget-area";
+@import "footer";
+@import "media-queries";

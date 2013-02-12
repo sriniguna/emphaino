@@ -1,0 +1,86 @@
+/* =Header
+---------------------------------------------- */
+
+.site-header {
+	text-align: center;
+	margin: 0 0 30px;
+	margin: 0 0 3rem;
+	.header-main {
+		@include secondary-box;
+		padding: 15px 10px 16px;
+		padding: 1.5rem 1rem 1.6rem;
+	}
+	.site-title {
+		font-size: 20px;
+		font-size: 2rem;
+		color: $heading-color;
+		a {
+			color: $heading-color;
+			@include text-shadow( rgba(0, 0, 0, 0.2) 0.1rem 0.1rem 0.1rem );
+		}
+	}
+	.site-description {
+		color: $heading-color;
+		font: normal 12px $sans-font;
+		font: normal 1.2rem $sans-font;
+		 @include text-shadow( rgba(0, 0, 0, 0.1) 0 0 0.1rem );
+	}
+}
+
+.has-logo-image .site-header .header-main {
+	padding: 15px 10px;
+	padding: 1.5rem 1rem;
+	img {
+		max-height: 60px;
+		max-height: 6rem;
+		width: auto;
+	}
+}
+
+.custom-header.no-logo-image.header-text-hidden .site-header .header-main {
+	min-height: 47px;
+	min-height: 4.7rem;
+}
+
+.no-custom-header.no-logo-image.header-text-hidden .site-header .header-main {
+	display: none;
+}
+
+#top-bar {
+	background-color: #484848;
+	background: $tertiary-bg-color;
+	@include box-shadow( rgba(0, 0, 0, 0.1) 0 0 0 0.1rem );
+	min-height: 32px;
+	min-height: 3.2rem;
+	color: #eee;
+	text-align: left;
+	position: relative;
+	#searchform {
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin: 4px 10px;
+		margin: 0.4rem 1rem;
+		font-size: 12px;
+		font-size: 1.2rem;
+		border: 1px solid #666;
+		border-radius: 3px;
+		border-radius: 0.3rem;
+		&:before {
+			@include fontello;
+			content: '\1f50e';
+		}
+		input[type=text] {
+			background: transparent;
+			border: 0;
+			color: #eee;
+			&:active, &:focus {
+				border: 0;
+				outline: 0;
+			}
+		}
+	}
+}
+
+
+// See also _menu.scss

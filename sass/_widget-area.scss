@@ -1,0 +1,93 @@
+/* =Widget area
+----------------------------------------------- */
+.widget-area {
+	@include secondary-box;
+	font-size: 12px;
+	font-size: 1.2rem;
+	.widget-title {
+		font-size: 16px;
+		font-size: 1.6rem;
+	}
+	&.footer-widget-area {
+		overflow: hidden;
+		.widget {
+			width: 200px;
+			float: left;
+			padding: 0;
+			margin: 10px;
+		}
+	}
+}
+
+.no-js #footer-widgets {
+	padding-left: 10px;
+	padding-left: 1rem;
+	.widget {
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		margin: 10px 15px;
+		margin: 1rem 1.5rem;
+	}
+}
+
+#footer-widgets {
+	margin: auto;
+	width: 220px;
+	width: 22rem;
+}
+
+
+/* =Widgets
+----------------------------------------------- */
+
+.widget {
+	margin: 0 0 1.5em;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	word-wrap: break-word;
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	select {
+		max-width: 100%;
+	}
+}
+
+/* Search widget */
+#searchsubmit {
+	display: none;
+}
+
+
+/* Calendar widget */
+#wp-calendar {
+	width: 100%;
+	tfoot, caption {
+		background-color: #ddd;
+	}
+	caption {
+		text-align: center;
+		font-weight: bold;
+		padding: 0.5em;
+	}
+	td {
+		padding: 0;
+		margin: auto;
+		text-align: center;
+		&#today {
+			text-decoration: underline;
+		}
+		&#prev {
+			text-align: left;
+			padding-left: 0.5em;
+		}
+		&#next {
+			text-align: right;
+			padding-right: 0.5em;
+		}
+	}
+}
+

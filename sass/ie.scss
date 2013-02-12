@@ -1,0 +1,27 @@
+/**
+ * Styles for IE8.
+ * IE7 and below not supported.
+ *
+ * @package Emphaino
+ * @since Emphaino 1.0
+ */
+
+
+
+@import "compass";
+@import "defines";
+
+/* Prevent stretching of full-size images with height and width attributes in IE8 */
+.site-header img,
+.entry-content img,
+img.size-full {
+	width: auto;
+}
+
+/* Non Responsive Layout for IE 8 */
+
+@include non-responsive;
+
+.header-main, .widget-area, .page-header, .post-navigation, .paging-navigation {
+	border: 1px solid #ddd;
+}

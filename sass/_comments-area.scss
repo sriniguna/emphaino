@@ -1,0 +1,183 @@
+
+/* =Comments
+----------------------------------------------- */
+
+.comments-area {
+	padding: 10px;
+	padding: 1rem;
+	@include primary-box;
+	&:empty {
+		display: none;
+	}
+}
+
+.comments-title, #reply-title {
+	font-size: 16px;
+	font-size: 1.6rem;
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
+}
+ol.commentlist {
+	list-style: none;
+	margin: 0 0 20px;
+	margin: 0 0 2rem;
+	ul.children {
+		margin-left: 20px;
+		margin-left: 2rem;
+		&> li {
+			position: relative;
+			&:before {
+				@include fontello;
+				content: "\21b3"; // icon-level-down
+				position: absolute;
+				left: -2.2rem;
+				opacity: 0.3;
+			}
+		}
+	}
+}
+
+article.comment {
+	position: relative;
+	overflow: hidden;
+	clear: both;
+	margin: 0 0 10px;
+	margin: 0 0 1rem;
+	padding: 10px;
+	padding: 1rem;
+	@include blocks-box;
+	footer {
+		border-bottom: 1px solid $border-color;
+		margin-bottom: 10px;
+		margin-bottom: 1rem;
+		padding: 0 0 10px;
+		padding: 0 0 1rem;
+
+		em { /* "Your comment is awaiting moderation" message */
+			position: absolute;
+			bottom: 10px;
+			bottom: 1rem;
+			left: 10px;
+			left: 1rem;
+			font-size: 12px;
+			font-size: 1.2rem;
+			&:before {
+				content: '(';
+			}
+			&:after {
+				content: ')';
+			}
+		}
+		br {
+			display: none;
+		}
+	}
+}
+
+.pingback p {
+	position: relative; // For the pingbcack icon to be absolute
+	margin: 0 0 10px;
+	margin: 0 0 1rem;
+	padding: 10px 10px 10px 28px;
+	padding: 1rem 1rem 1rem 2.8rem;
+	@include blocks-box;
+	&:before {
+		@include fontello;
+		position: absolute;
+		left: 0.5rem;
+		top: 1.3rem;
+		content: '\e761\e78b';
+		opacity: 0.5;
+	}
+}
+
+.avatar {
+	float: left;
+	margin-bottom: 10px;
+	margin-bottom: 1rem;
+	width: 40px;
+	width: 4rem;
+	height: auto;
+	@include blocks-box;
+}
+
+
+.comment-author {
+	cite {
+		position: relative;
+		left: 10px;
+		left: 1rem;
+		font-size: 14px;
+		font-size: 1.4rem;
+		font-family: $serif-font;
+		font-style: normal;
+	}
+}
+
+.comment-meta {
+	position: relative;
+		left: 10px;
+		left: 1rem;
+	font-size: 12px; font-size: 1.2rem;
+}
+
+
+.bypostauthor > .comment .comment-author cite:after {
+	content: '*';
+	font-size: 0.8em;
+	position: relative;
+	bottom: 0.2em;
+}
+
+.reply {
+	position: absolute;
+	bottom: 10px;
+	bottom: 1rem;
+	right: 10px;
+	right: 1rem;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-size: 1.2rem;
+	&:before {
+		color: #888;
+	}
+}
+
+#respond {
+	position: relative;
+	margin: 0 0 10px;
+	margin: 0 0 1rem;
+	font-size: 12px;
+	font-size: 1.2rem;
+	label {
+		font-weight: bold;
+	}
+	.comment-form-author, .comment-form-email, .comment-form-url {
+		position: relative;
+		margin-left: 5em;
+		label {
+			position: absolute;
+				left: -5em;
+				bottom: 0.1em;
+		}
+		input {
+			width: 97%;
+		}
+	}
+}
+
+#cancel-comment-reply-link {
+	position: absolute;
+	top: 10px;
+	top: 1rem;
+	right: 0;
+	font-family: $sans-font;
+	font-size: 12px;
+	font-size: 1.2rem;
+	&:before {
+		@include fontello;
+		content: '\e80b';
+		opacity: 0.4;
+	}
+}

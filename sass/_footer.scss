@@ -1,0 +1,16 @@
+#bottom-bar {
+	overflow: hidden;
+	padding: 10px;
+	padding: 1rem;
+	background-color: #484848;
+	background: $tertiary-bg-color;
+	@include box-shadow( rgba(0, 0, 0, 0.1) 0 0 0.5rem );
+	color: #dde;
+	a {
+		color: lighten($link-color, 10%);
+	}
+	font-size: 12px;
+	font-size: 1.2rem;
+	text-align: center;
+}
+

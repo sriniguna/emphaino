@@ -1,0 +1,8 @@
+Changelog
+=========
+
+
+2013-02-04: Version 1.0
+-----------------------
+
+* Initial release.
