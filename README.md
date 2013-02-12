@@ -1,13 +1,13 @@
 Emphaino Theme for WordPress
 ============================
 
-The word 'emphaino' means "to show in, to exhibit;" (en, "in," phaino, "to cause to shine"). May your thoughts, your work, your art shine with Emphaino, a modern, responsive WordPress theme. Well crafted, clean design, emphasis on content. Customization through the interactive WP customizer interface. Compatible with WordPress 3.5 or above.
+The word 'emphaino' means "to show in, to exhibit;" (en, "in," phaino, "to cause to shine"). Let your thoughts, your work, your art shine with Emphaino, a modern, responsive WordPress theme. Clean design, emphasis on content. Customization through the interactive WP customizer interface.
 
 Main Features
 -------------
 
 * Responsive. The layout fits and adapts itself to any screen the site is viewed in. Responsiveness can be turned off if desired.
-* Entries in blog home and archives arrange themselves in a dynamic grid layout. The dynamic grid layout can be turned off optionally and let entries be displayed in traditional fashion.
+* Entries in blog home and archives arrange themselves in a dynamic grid layout. The dynamic grid layout can be turned off optionally and the entries be displayed in traditional fashion.
 * One widget area, in the footer, where the widgets are arranged in a dynamic grid layout.
 * One navigation menu in the header.
 * Custom header and custom logo image.

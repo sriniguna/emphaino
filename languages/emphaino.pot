@@ -1,5 +1,5 @@
 # Emphaino WordPress Theme. Translation template file.
-# Copyright (C) 2013 Srini <srinig.com@gmail.com>
+# Copyright (C) 2013 Srinivasan G <srinig.com@gmail.com>
 # This file is distributed under the same license as the Emphaino.
 #
 #, fuzzy

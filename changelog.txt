@@ -2,6 +2,14 @@ Changelog
 =========
 
 
+2013-02-12: Version 1.0.1
+-------------------------
+
+* Fixed link color issues in customizer
+* Fix to handle condition where avatars are turned off in 'Discussion Settings'
+* Updated screenshot
+
+
 2013-02-04: Version 1.0
 -----------------------
 
