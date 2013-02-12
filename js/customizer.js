@@ -9,12 +9,12 @@
 	// Site title and description.
 	wp.customize( 'blogname', function( value ) {
 		value.bind( function( to ) {
-			$( '.site-title a' ).html( to );
+			$( '.site-title a' ).text( to );
 		} );
 	} );
 	wp.customize( 'blogdescription', function( value ) {
 		value.bind( function( to ) {
-			$( '.site-description' ).html( to );
+			$( '.site-description' ).text( to );
 		} );
 	} );
 	wp.customize( 'header_textcolor', function( value ) {
@@ -33,7 +33,7 @@
 	// Footer text
 	wp.customize( 'footer_text', function( value ) {
 		value.bind( function( to ) {
-			$( '.footer-text' ).html( to );
+			$( '.footer-text' ).text( to );
 		} );
 	} );
 
