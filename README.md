@@ -14,7 +14,7 @@ Main Features
 * Custom background.
 * More customization possible with the WordPress interactive customizer interface.
 * HTML5 & CSS3.
-* Compatible with WordPress version 3.5 or above.
+* Compatible with WordPress version 3.5 and above.
 * Tested and works well in all major browsers. IE 8 and up, and the latest versions of Chrome, Firefox, Opera and Safari.
 * Translation ready.
 
