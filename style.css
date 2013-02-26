@@ -886,7 +886,24 @@ body {
   margin-right: 0;
 }
 
-.tag-post-formats .entry-title:before,
+.format-image .entry-title:before,
+.single-format-image .entry-title:before,
+.format-gallery .entry-title:before,
+.single-format-gallery .entry-title:before,
+.format-chat .entry-title:before,
+.single-format-chat .entry-title:before,
+.format-link .entry-title:before,
+.single-format-link .entry-title:before,
+.format-quote .entry-title:before,
+.single-format-quote .entry-title:before,
+.format-audio .entry-title:before,
+.single-format-audio .entry-title:before,
+.format-video .entry-title:before,
+.single-format-video .entry-title:before,
+.format-status .entry-title:before,
+.single-format-status .entry-title:before,
+.format-aside .entry-title:before,
+.single-format-aside .entry-title:before,
 .post-password-required .entry-title:before {
   font-family: 'fontello';
   font-style: normal;
