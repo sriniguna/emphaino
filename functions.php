@@ -437,14 +437,3 @@ function emphaino_post_class( $classes ) {
 }
 add_filter( 'post_class', 'emphaino_post_class' );
 
-
-/**
- * Prints credit links
- *
- * @since Emphaino 1.0
- */
-function emphaino_credit_links() {
-	printf( __( 'Powered by %s.', 'emphaino' ).' ', '<a href="http://wordpress.org/" title="'. __( 'A Semantic Personal Publishing Platform', 'emphaino' ) . '" rel="generator">WordPress</a>' );
-	printf( __( 'Theme %s.', 'emphaino' ), '<a href="http://srinig.com/wordpress/themes/emphaino/" title="'.__('Emphaino WordPress Theme', 'emphaino').'">Emphaino</a>' );
-}
-add_action('emphaino_credits', 'emphaino_credit_links');
