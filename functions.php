@@ -169,8 +169,8 @@ function emphaino_scripts() {
 	else
 		wp_enqueue_script( 'small-menu', get_template_directory_uri() . '/js/small-menu.js', array( 'jquery' ), $theme->Version, true );
 
-	wp_enqueue_script( 'masonry', get_template_directory_uri() . '/js/jquery.masonry.min.js', array( 'jquery' ), '2.1.07', true );
-
+	wp_enqueue_script( 'jquery-masonry' );
+	
 	wp_enqueue_script( 'fitvids', get_template_directory_uri() . '/js/jquery.fitvids.min.js', array( 'jquery' ), '1.0', true );
 
 	wp_enqueue_script( 'emphaino-scripts', get_template_directory_uri() . '/js/scripts.js', array( 'jquery' ), $theme->Version, true );
