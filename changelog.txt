@@ -1,6 +1,14 @@
 Changelog
 =========
 
+2013-02-26: Version 1.0.2
+-------------------------
+
+* Fix for the post format icons :before entry title
+* Making use of the core bundled script 'jquery-masonry'
+* Bringing back footer credit links to footer.php
+* Regenerated translation POT file
+
 
 2013-02-12: Version 1.0.1
 -------------------------
