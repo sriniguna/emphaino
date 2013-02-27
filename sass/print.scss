@@ -276,7 +276,24 @@ a {
 
 
 
-.tag-post-formats,
+.format-image,
+.single-format-image,
+.format-gallery,
+.single-format-gallery,
+.format-chat,
+.single-format-chat,
+.format-link,
+.single-format-link,
+.format-quote,
+.single-format-quote,
+.format-audio,
+.single-format-audio,
+.format-video,
+.single-format-video,
+.format-status,
+.single-format-status,
+.format-aside,
+.single-format-aside,
 .post-password-required {
 	.entry-title:before {
 		@include fontello;
