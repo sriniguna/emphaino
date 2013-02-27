@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2013-02-27: Version 1.0.3
+-------------------------
+
+* Fix for footer text display in default setup.
+
+
 2013-02-26: Version 1.0.2
 -------------------------
 
