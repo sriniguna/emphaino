@@ -43,6 +43,14 @@ License
 Emphaino WordPress Theme is distributed under the terms of the GNU GPL version 2 or later.
 
 
+Notes
+-----
+
+### Custom Header ###
+
+Even though a header image of any size can be uploaded, the suggested size is 940x140 pixels. A 940x140 image will appear as is in the front end, and images of the same ratio (such as 1880x280 px) may appear scaled down/up depending on the pixel density and viewport width, but without any hidden edges. Images of different ratios may have a portion of their edges hidden when viewed from the front end, this is normal behaviour.
+
+
 Support
 -------
 
