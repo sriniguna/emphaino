@@ -1,6 +1,14 @@
 Changelog
 =========
 
+2013-03-04: Version 1.0.4
+-------------------------
+
+* Enqueueing webfonts the right way
+* Minor fixes
+* A note about custom header image sizes in the readme
+
+
 2013-02-27: Version 1.0.3
 -------------------------
 
