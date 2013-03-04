@@ -343,7 +343,7 @@ function emphaino_admin_header_image() {
 	?>
 	<div id="headimg"<?php echo $header_style; ?>>
 		<?php if( $logo_image = get_theme_mod('logo_image') ): ?>
-		<a id="name"<?php echo $style; ?> onclick="return false;" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+		<a id="name" onclick="return false;" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 			<img src="<?php echo $logo_image; ?>" alt="<?php bloginfo( 'name' ); ?>" />
 		</a>
 		<?php else: ?>
