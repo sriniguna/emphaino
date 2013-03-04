@@ -144,6 +144,24 @@ function emphaino_widgets_init() {
 }
 add_action( 'widgets_init', 'emphaino_widgets_init' );
 
+
+/**
+ * Enqueue webfonts
+ *
+ * @since Emphaino 1.0.4
+ */
+function emphaino_enqueue_webfonts() {
+	$font_families[] = 'PT+Sans:400,700,400italic';
+	$font_families[] = 'Bree+Serif';
+
+	$protocol = is_ssl() ? 'https' : 'http';
+	$query_args = array(
+		'family' => implode( '|', $font_families ),
+	);
+	wp_enqueue_style( 'webfonts', add_query_arg( $query_args, "$protocol://fonts.googleapis.com/css" ), array(), null );
+}
+
+
 /**
  * Enqueue scripts and styles
  */
@@ -152,7 +170,7 @@ function emphaino_scripts() {
 	$theme  = wp_get_theme();
 
 	if( get_theme_mod('disable_webfonts') != 'on' )
-		wp_enqueue_style( 'google-webfonts', 'http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Bree+Serif', false, $theme->Version );
+		emphaino_enqueue_webfonts();	
 
 	wp_enqueue_style( 'style', get_stylesheet_uri(), false, $theme->Version, 'screen, projection' );
 
@@ -368,7 +386,7 @@ endif; // emphaino_admin_header_image
 function emphaino_custom_header_admin_scripts()
 {
 	if( 'appearance_page_custom-header' == get_current_screen()->id && get_theme_mod('disable_webfonts') != 'on' && !get_theme_mod('logo_image') && 'blank' !=  get_header_textcolor()) {
-		wp_enqueue_style( 'google-webfonts', 'http://fonts.googleapis.com/css?family=PT+Sans:400|Bree+Serif', false, wp_get_theme()->Version );
+		emphaino_enqueue_webfonts();
 	}
 }
 add_action( 'admin_enqueue_scripts', 'emphaino_custom_header_admin_scripts' );
