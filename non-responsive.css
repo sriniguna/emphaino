@@ -339,6 +339,108 @@ article.comment footer em {
 }
 
 .content-area {
+  max-width: 620px;
+  max-width: 62rem;
+}
+
+.single .hentry,
+.single .comments-area,
+body.page .hentry,
+body.page .comments-area,
+.one-col-excerpts .hentry,
+.one-col-excerpts .comments-area,
+.one-col-full-posts .hentry,
+.one-col-full-posts .comments-area,
+.no-js .hentry,
+.no-js .comments-area {
+  padding: 40px;
+  padding: 4rem;
+}
+.single .entry-header,
+.single .entry-content,
+.single .entry-summary,
+.single #image-navigation,
+.single .entry-meta,
+.single .comments-title,
+.single .comment-navigation,
+.single ol.commentlist,
+.single #respond,
+body.page .entry-header,
+body.page .entry-content,
+body.page .entry-summary,
+body.page #image-navigation,
+body.page .entry-meta,
+body.page .comments-title,
+body.page .comment-navigation,
+body.page ol.commentlist,
+body.page #respond,
+.one-col-excerpts .entry-header,
+.one-col-excerpts .entry-content,
+.one-col-excerpts .entry-summary,
+.one-col-excerpts #image-navigation,
+.one-col-excerpts .entry-meta,
+.one-col-excerpts .comments-title,
+.one-col-excerpts .comment-navigation,
+.one-col-excerpts ol.commentlist,
+.one-col-excerpts #respond,
+.one-col-full-posts .entry-header,
+.one-col-full-posts .entry-content,
+.one-col-full-posts .entry-summary,
+.one-col-full-posts #image-navigation,
+.one-col-full-posts .entry-meta,
+.one-col-full-posts .comments-title,
+.one-col-full-posts .comment-navigation,
+.one-col-full-posts ol.commentlist,
+.one-col-full-posts #respond,
+.no-js .entry-header,
+.no-js .entry-content,
+.no-js .entry-summary,
+.no-js #image-navigation,
+.no-js .entry-meta,
+.no-js .comments-title,
+.no-js .comment-navigation,
+.no-js ol.commentlist,
+.no-js #respond {
+  max-width: 660px;
+  max-width: 66rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.single .entry-title,
+body.page .entry-title,
+.one-col-excerpts .entry-title,
+.one-col-full-posts .entry-title,
+.no-js .entry-title {
+  font-size: 30px;
+  font-size: 3rem;
+}
+.single .entry-content,
+.single .entry-summary,
+body.page .entry-content,
+body.page .entry-summary,
+.one-col-excerpts .entry-content,
+.one-col-excerpts .entry-summary,
+.one-col-full-posts .entry-content,
+.one-col-full-posts .entry-summary,
+.no-js .entry-content,
+.no-js .entry-summary {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+.single .pingback, .single article.comment,
+body.page .pingback,
+body.page article.comment,
+.one-col-excerpts .pingback,
+.one-col-excerpts article.comment,
+.one-col-full-posts .pingback,
+.one-col-full-posts article.comment,
+.no-js .pingback,
+.no-js article.comment {
+  margin: 0 0 30px;
+  margin: 0 0 3rem;
+}
+
+.content-area {
   max-width: 940px;
   max-width: 94rem;
 }

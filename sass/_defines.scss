@@ -311,6 +311,7 @@ $blocks-bg-color: #f8f8f8;
 	}
 	@include entries-4col;
 	@include body-6col;
+	@include content-8col;
 	@include content-12col;
 	@include footer-12col;
 	@include bottom-bar-8col;
