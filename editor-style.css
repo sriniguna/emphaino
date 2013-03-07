@@ -213,8 +213,7 @@ dfn, cite, em, i {
 
 blockquote, pre {
   margin: 0 0 1em;
-  padding: 10px;
-  padding: 1rem;
+  padding: 1em;
   background: #f8f8f8;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
@@ -227,8 +226,7 @@ blockquote {
 }
 blockquote:before {
   position: absolute;
-  left: 10px;
-  left: 1rem;
+  left: 0.4em;
   font-family: 'fontello';
   font-style: normal;
   font-weight: normal;

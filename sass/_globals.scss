@@ -69,8 +69,7 @@ dfn, cite, em, i {
 }
 blockquote, pre {
 	margin: 0 0 1em;
-	padding: 10px;
-	padding: 1rem;
+	padding: 1em;
 	@include blocks-box;
 }
 blockquote {
@@ -78,7 +77,7 @@ blockquote {
 	position: relative;
 	&:before {
 		position: absolute;
-			left: 10px;	left: 1rem;
+			left: 0.4em;
 		@include fontello;	
 		font-size: 2em;
 		opacity: 0.3;

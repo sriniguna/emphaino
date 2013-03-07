@@ -4,7 +4,7 @@ Theme URI: http://srinig.com/wordpress/themes/emphaino/
 Author: Srinivasan G
 Author URI: http://srinig.com/
 Description: The word 'emphaino' means "to show in, to exhibit;" (en, "in," phaino, "to cause to shine"). Let your thoughts, your work, your art shine with Emphaino, a modern, responsive WordPress theme. Clean design, emphasis on content. Customization through the interactive WP customizer interface. Compatible with WordPress 3.5 and above.
-Version: 1.0.4
+Version: 1.0.5 alpha 4
 License: GNU General Public License
 License URI: license.txt
 Tags: gray, white, light, one-column, three-columns, flexible-width, blavatar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, photoblogging
@@ -184,8 +184,7 @@ dfn, cite, em, i {
 
 blockquote, pre {
   margin: 0 0 1em;
-  padding: 10px;
-  padding: 1rem;
+  padding: 1em;
   background: #f8f8f8;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
@@ -198,8 +197,7 @@ blockquote {
 }
 blockquote:before {
   position: absolute;
-  left: 10px;
-  left: 1rem;
+  left: 0.4em;
   font-family: 'fontello';
   font-style: normal;
   font-weight: normal;
@@ -496,8 +494,8 @@ body {
 .one-col-excerpts .content-area,
 .one-col-full-posts .content-area,
 .no-js .content-area {
-  max-width: 620px;
-  max-width: 62rem;
+  max-width: 940px;
+  max-width: 94rem;
 }
 
 .site-footer {
@@ -755,7 +753,7 @@ body {
 
 .hentry {
   width: auto;
-  max-width: 580px;
+  max-width: 900px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.9);
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0.5rem;
@@ -990,8 +988,7 @@ footer.entry-meta {
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
-  margin: 0 0 10px;
-  margin: 0 0 1rem;
+  margin: 0 0 1em;
   max-width: 100%;
   height: auto;
   text-align: center;
@@ -1843,6 +1840,90 @@ article.comment footer br {
   .content-area {
     max-width: 620px;
     max-width: 62rem;
+  }
+
+  .single .hentry,
+  .single .comments-area,
+  body.page .hentry,
+  body.page .comments-area,
+  .one-col-excerpts .hentry,
+  .one-col-excerpts .comments-area,
+  .one-col-full-posts .hentry,
+  .one-col-full-posts .comments-area,
+  .no-js .hentry,
+  .no-js .comments-area {
+    padding: 4rem;
+  }
+  .single .entry-header,
+  .single .entry-content,
+  .single .entry-summary,
+  .single #image-navigation,
+  .single .entry-meta,
+  .single .comments-title,
+  .single .comment-navigation,
+  .single ol.commentlist,
+  .single #respond,
+  body.page .entry-header,
+  body.page .entry-content,
+  body.page .entry-summary,
+  body.page #image-navigation,
+  body.page .entry-meta,
+  body.page .comments-title,
+  body.page .comment-navigation,
+  body.page ol.commentlist,
+  body.page #respond,
+  .one-col-excerpts .entry-header,
+  .one-col-excerpts .entry-content,
+  .one-col-excerpts .entry-summary,
+  .one-col-excerpts #image-navigation,
+  .one-col-excerpts .entry-meta,
+  .one-col-excerpts .comments-title,
+  .one-col-excerpts .comment-navigation,
+  .one-col-excerpts ol.commentlist,
+  .one-col-excerpts #respond,
+  .one-col-full-posts .entry-header,
+  .one-col-full-posts .entry-content,
+  .one-col-full-posts .entry-summary,
+  .one-col-full-posts #image-navigation,
+  .one-col-full-posts .entry-meta,
+  .one-col-full-posts .comments-title,
+  .one-col-full-posts .comment-navigation,
+  .one-col-full-posts ol.commentlist,
+  .one-col-full-posts #respond,
+  .no-js .entry-header,
+  .no-js .entry-content,
+  .no-js .entry-summary,
+  .no-js #image-navigation,
+  .no-js .entry-meta,
+  .no-js .comments-title,
+  .no-js .comment-navigation,
+  .no-js ol.commentlist,
+  .no-js #respond {
+    max-width: 660px;
+    max-width: 66rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .single .entry-title,
+  body.page .entry-title,
+  .one-col-excerpts .entry-title,
+  .one-col-full-posts .entry-title,
+  .no-js .entry-title {
+    font-size: 30px;
+    font-size: 3rem;
+  }
+  .single .entry-content,
+  .single .entry-summary,
+  body.page .entry-content,
+  body.page .entry-summary,
+  .one-col-excerpts .entry-content,
+  .one-col-excerpts .entry-summary,
+  .one-col-full-posts .entry-content,
+  .one-col-full-posts .entry-summary,
+  .no-js .entry-content,
+  .no-js .entry-summary {
+    font-size: 16px;
+    font-size: 1.6rem;
   }
 
   #bottom-bar .footer-text {

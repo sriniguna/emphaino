@@ -19,7 +19,8 @@
 }
 .hentry {
 	width: auto;
-	max-width: 580px;
+	max-width: 900px;//580px;
+
 	@include primary-box;
 	margin: 0 auto 20px;
 	margin: 0 auto 2rem;
@@ -211,8 +212,7 @@ footer.entry-meta {
 }
 .wp-post-image {
 	@include blocks-box;
-	margin: 0 0 10px;
-	margin: 0 0 1rem;
+	margin: 0 0 1em;
 	max-width: 100%;
 	height: auto;
 	text-align: center;

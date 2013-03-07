@@ -222,6 +222,39 @@ $blocks-bg-color: #f8f8f8;
 		max-width: 620px;
 		max-width: 62rem;
 	}
+	.single,
+	body.page,
+	.one-col-excerpts,
+	.one-col-full-posts,
+	.no-js {
+		.hentry,
+		.comments-area {
+			padding: 4rem;
+		}
+		.entry-header,
+		.entry-content,
+		.entry-summary,
+		#image-navigation,
+		.entry-meta,
+		.comments-title,
+		.comment-navigation,
+		ol.commentlist,
+		#respond {
+			max-width: 660px;
+			max-width: 66rem;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.entry-title {
+			font-size: 30px;
+			font-size: 3rem;
+		}
+		.entry-content,
+		.entry-summary {
+			font-size: 16px;
+			font-size: 1.6rem;
+		}
+	}
 }
 @mixin content-12col {
 	.content-area {

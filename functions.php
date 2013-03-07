@@ -12,7 +12,7 @@
  * @since Emphaino 1.0
  */
 if ( ! isset( $content_width ) )
-	$content_width = 580; /* pixels */
+	$content_width = 660; /* pixels */
 
 
 /**
@@ -87,7 +87,8 @@ function emphaino_setup() {
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 150, 150, true ); // Post thumbnail size for excerpts and search results
 	add_image_size( 'half-width', 280, 9999 ); // Post thumbnail size for dynamic grid posts
-	add_image_size( 'full-width', 580, 9999 ); // Post thumbnail size for full post displays
+	add_image_size( 'full-width', 580, 9999 ); // Post thumbnail size for full post displays (when there is a sidebar)
+	add_image_size( 'fuller-width', 660, 9999 ); // Post thumbnail size for full post displays
 
 	$custom_header_args = array(
 		'width'                  => 940,

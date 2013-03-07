@@ -12,10 +12,10 @@
 
 	<?php if ( ! is_search() && ( get_theme_mod('posts_layout') == 'one_col_full_posts' || has_post_format('link') || has_post_format('image') || has_post_format('status') || has_post_format('audio') || has_post_format('video') ) ): ?>
 	<div class="entry-content">
-		<?php if( has_post_thumbnail() && 'on' == get_theme_mod('full_posts_feat_img') ): ?>
+		<?php if( has_post_thumbnail() && 'on' == get_theme_mod( 'full_posts_feat_img', emphaino_default_settings('full_posts_feat_img') ) ): ?>
 		<div class="featured-image">
 			<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-				<?php the_post_thumbnail('full-width'); ?>
+				<?php the_post_thumbnail('fuller-width'); ?>
 			</a>
 		</div>
 		<?php endif; // featured image ?>
