@@ -259,6 +259,10 @@ $blocks-bg-color: #f8f8f8;
 			font-size: 16px;
 			font-size: 1.6rem;
 		}
+		.pingback, article.comment {
+			margin: 0 0 30px;
+			margin: 0 0 3rem;
+		}
 	}
 }
 @mixin content-12col {

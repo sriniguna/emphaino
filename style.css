@@ -1930,6 +1930,18 @@ article.comment footer br {
     font-size: 16px;
     font-size: 1.6rem;
   }
+  .single .pingback, .single article.comment,
+  body.page .pingback,
+  body.page article.comment,
+  .one-col-excerpts .pingback,
+  .one-col-excerpts article.comment,
+  .one-col-full-posts .pingback,
+  .one-col-full-posts article.comment,
+  .no-js .pingback,
+  .no-js article.comment {
+    margin: 0 0 30px;
+    margin: 0 0 3rem;
+  }
 
   #bottom-bar .footer-text {
     width: 48%;
