@@ -130,6 +130,10 @@ $blocks-bg-color: #f8f8f8;
 		width: 15rem;
 	}
 
+	.wp-caption-text, .entry-attachment .entry-caption p {
+		font-size: 0.8em;
+	}
+
 	.comments-title {
 		font-size: 22px;
 		font-size: 2.2rem;
