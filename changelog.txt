@@ -1,6 +1,15 @@
 Changelog
 =========
 
+2013-03-07: Version 1.1
+-----------------------
+
+* Widening content area for single post displays to match header width
+	* $content_width changed to 660 pixels
+* The theme now uses its own gallery styles
+* 'Featured image in full posts' defaults to 'on'
+
+
 2013-03-04: Version 1.0.4
 -------------------------
 
