@@ -1852,6 +1852,7 @@ article.comment footer br {
   .one-col-full-posts .comments-area,
   .no-js .hentry,
   .no-js .comments-area {
+    padding: 40px;
     padding: 4rem;
   }
   .single .entry-header,

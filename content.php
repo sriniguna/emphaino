@@ -15,7 +15,7 @@
 		<?php if( has_post_thumbnail() && 'on' == get_theme_mod( 'full_posts_feat_img', emphaino_default_settings('full_posts_feat_img') ) ): ?>
 		<div class="featured-image">
 			<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-				<?php the_post_thumbnail('fuller-width'); ?>
+				<?php the_post_thumbnail('full-width'); ?>
 			</a>
 		</div>
 		<?php endif; // featured image ?>
