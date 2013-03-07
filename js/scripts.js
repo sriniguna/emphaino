@@ -23,6 +23,10 @@ jQuery().ready(function( jQuery ) {
     jQuery(".wp-caption").width(function() {
         return jQuery('img', this).width();
     });
+    jQuery(".gallery-caption").width(function() {
+        galleryIcon = jQuery(this).prev('.gallery-icon');
+        return jQuery('img', galleryIcon).width();
+    });
 });
 
 jQuery(document).ready(function(){

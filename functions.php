@@ -123,6 +123,10 @@ function emphaino_setup() {
 	 */
 	add_editor_style();
 
+	/**
+	 * This theme uses its own gallery styles.
+	 */
+	add_filter( 'use_default_gallery_style', '__return_false' );
 }
 endif; // emphaino_setup
 add_action( 'after_setup_theme', 'emphaino_setup' );
