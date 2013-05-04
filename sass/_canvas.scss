@@ -32,3 +32,18 @@ body {
 .site-footer {
 	clear: both;
 }
+
+.back-to-top {
+	display: none;
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	height: 3rem;
+	width: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	border-radius: 1.5rem;
+	background-color: rgba( 0, 0, 0, 0.4);
+	color: #fff;
+	font-size: 1.2rem;
+}

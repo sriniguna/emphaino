@@ -31,4 +31,19 @@ jQuery().ready(function( jQuery ) {
 
 jQuery(document).ready(function(){
     jQuery(".entry-content").fitVids();
+
+    jQuery(window).scroll(function() {
+        if( jQuery(this).scrollTop() > 200 ) {
+            jQuery('.back-to-top').fadeIn(200);
+        }
+        else {
+            jQuery('.back-to-top').fadeOut(200);
+        }
+    });
+
+    jQuery('.back-to-top').click(function() {
+        event.preventDefault();
+        jQuery('body').animate({scrollTop: 0}, 300);
+    });
+
 });
