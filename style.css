@@ -144,26 +144,41 @@ p, ul, ol {
 
 ul {
   list-style: none;
+  position: relative;
+  margin-left: 0.8em;
 }
 ul li:before {
   content: "\203A \0020";
+  position: absolute;
+  left: -0.8em;
+}
+
+ol {
+  margin-left: 1.2em;
 }
 
 ol, ol ol ol ol {
-  list-style: decimal inside;
+  list-style: decimal outside;
 }
 
 ol ol {
-  list-style: lower-roman inside;
+  list-style: lower-roman outside;
 }
 
 ol ol ol {
-  list-style: lower-alpha inside;
+  list-style: lower-alpha outside;
 }
 
 ul ul, ol ol, ul ol, ol ul {
   margin-bottom: 0;
-  margin-left: 1em;
+  margin-left: 1.2em;
+}
+
+li {
+  margin-top: 0.2em;
+}
+li:first-child {
+  margin-top: 0;
 }
 
 dt {
