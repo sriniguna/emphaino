@@ -26,7 +26,7 @@
 	</footer><!-- #colophon .site-footer -->
 </div><!-- #page .hfeed .site -->
 
-<a href="#" class="back-to-top">Top</a>
+<a href="#" class="back-to-top icon-up-open-mini"></a>
 
 <?php wp_footer(); ?>
 
