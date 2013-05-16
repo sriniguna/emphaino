@@ -113,10 +113,13 @@ function emphaino_setup() {
 		'primary' => __( 'Primary Menu', 'emphaino' ),
 	) );
 
-	/**
-	 * Enable support for Post Formats
+	/*
+	 * This theme supports all available post formats by default.
+	 * See http://codex.wordpress.org/Post_Formats
 	 */
-	add_theme_support( 'post-formats', array( 'aside', 'quote', 'status' ) );
+	add_theme_support( 'post-formats', array(
+		'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video'
+	) );
 
 	/**
 	 * This theme styles the visual editor with editor-style.css to match the theme style.
