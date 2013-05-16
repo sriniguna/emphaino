@@ -10,7 +10,7 @@
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'emphaino' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 	</header><!-- .entry-header -->
 
-	<?php if ( ! is_search() && ( get_theme_mod('posts_layout') == 'one_col_full_posts' || has_post_format('link') || has_post_format('image') || has_post_format('status') || has_post_format('audio') || has_post_format('video') ) ): ?>
+	<?php if ( ! is_search() && ( get_theme_mod('posts_layout') == 'one_col_full_posts' || has_post_format('link') || has_post_format('image') || has_post_format('status') || has_post_format('audio') || has_post_format('video') || has_post_format('quote') ) ): ?>
 	<div class="entry-content">
 		<?php if( has_post_thumbnail() && 'on' == get_theme_mod( 'full_posts_feat_img', emphaino_default_settings('full_posts_feat_img') ) ): ?>
 		<div class="featured-image">

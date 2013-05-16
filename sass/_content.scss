@@ -188,6 +188,39 @@
 	}
 }
 
+figure.quote {
+	margin: 0 0 1em;
+	padding: 1em;
+	@include blocks-box;
+	padding-left: 4em;
+	position: relative;
+	&:before {
+		position: absolute;
+			left: 0.4em;
+		@include fontello;	
+		font-size: 2em;
+		opacity: 0.3;
+		content: '\275d';
+	}
+	p:last-child {
+		margin-bottom: 0;
+	}
+	blockquote {
+		margin: 0;
+		padding: 0;
+		background: transparent;
+		@include box-shadow( none );
+		&:before {
+			display: none;
+		}
+	}
+	.quote-caption {
+		font-size: 0.9em;
+		margin-top: 0.5em;
+		text-align: right;
+	}
+}
+
 footer.entry-meta {
 	border-top: 1px solid $border-color;
 	padding-top: 10px;

@@ -993,6 +993,54 @@ body {
   content: '\e708 \0020';
 }
 
+figure.quote {
+  margin: 0 0 1em;
+  padding: 1em;
+  background: #f8f8f8;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+  padding-left: 4em;
+  position: relative;
+}
+figure.quote:before {
+  position: absolute;
+  left: 0.4em;
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin: 0 0.2em;
+  text-align: center;
+  opacity: 0.8;
+  line-height: 1em;
+  font-size: 2em;
+  opacity: 0.3;
+  content: '\275d';
+}
+figure.quote p:last-child {
+  margin-bottom: 0;
+}
+figure.quote blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+figure.quote blockquote:before {
+  display: none;
+}
+figure.quote .quote-caption {
+  font-size: 0.9em;
+  margin-top: 0.5em;
+  text-align: right;
+}
+
 footer.entry-meta {
   border-top: 1px solid #dddddd;
   padding-top: 10px;
