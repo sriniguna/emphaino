@@ -188,18 +188,22 @@
 	}
 }
 
+.format-quote, .single-format-quote {
+	.entry-title {
+		display:none;
+	}
+}
+
 figure.quote {
 	margin: 0 0 1em;
-	padding: 1em;
-	@include blocks-box;
 	padding-left: 4em;
 	position: relative;
 	&:before {
 		position: absolute;
-			left: 0.4em;
+			left: 0;
 		@include fontello;	
 		font-size: 2em;
-		opacity: 0.3;
+		opacity: 0.5;
 		content: '\275d';
 	}
 	p:last-child {

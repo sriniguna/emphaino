@@ -993,19 +993,18 @@ body {
   content: '\e708 \0020';
 }
 
+.format-quote .entry-title, .single-format-quote .entry-title {
+  display: none;
+}
+
 figure.quote {
   margin: 0 0 1em;
-  padding: 1em;
-  background: #f8f8f8;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
-  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
   padding-left: 4em;
   position: relative;
 }
 figure.quote:before {
   position: absolute;
-  left: 0.4em;
+  left: 0;
   font-family: 'fontello';
   font-style: normal;
   font-weight: normal;
@@ -1018,7 +1017,7 @@ figure.quote:before {
   opacity: 0.8;
   line-height: 1em;
   font-size: 2em;
-  opacity: 0.3;
+  opacity: 0.5;
   content: '\275d';
 }
 figure.quote p:last-child {
