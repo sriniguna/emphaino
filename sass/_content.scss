@@ -195,7 +195,7 @@
 }
 
 figure.quote {
-	margin: 0 0 1em;
+	margin: 0 1em 1em 0;
 	padding-left: 4em;
 	position: relative;
 	&:before {
@@ -272,13 +272,16 @@ footer.entry-meta {
 }
 
 
-/* =Asides
+/* =Asides & Statuses
 ----------------------------------------------- */
 
-.blog .format-aside .entry-title,
-.archive .format-aside .entry-title {
-	a {
-		display: none;
+.blog,
+.archive {
+	.format-aside,
+	.format-status {
+		.entry-title a {
+			display: none;
+		}
 	}
 }
 

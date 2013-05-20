@@ -998,7 +998,7 @@ body {
 }
 
 figure.quote {
-  margin: 0 0 1em;
+  margin: 0 1em 1em 0;
   padding-left: 4em;
   position: relative;
 }
@@ -1097,10 +1097,12 @@ footer.entry-meta {
   text-align: center;
 }
 
-/* =Asides
+/* =Asides & Statuses
 ----------------------------------------------- */
 .blog .format-aside .entry-title a,
-.archive .format-aside .entry-title a {
+.blog .format-status .entry-title a,
+.archive .format-aside .entry-title a,
+.archive .format-status .entry-title a {
   display: none;
 }
 
