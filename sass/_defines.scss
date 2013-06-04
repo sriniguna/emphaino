@@ -231,37 +231,49 @@ $blocks-bg-color: #f8f8f8;
 	.one-col-excerpts,
 	.one-col-full-posts,
 	.no-js {
-		.hentry,
-		.comments-area {
-			padding: 40px;
-			padding: 4rem;
+		&.no-sidebar {
+			.hentry,
+			.comments-area {
+				padding: 40px;
+				padding: 4rem;
+			}
+			.entry-header,
+			.entry-content,
+			.entry-summary,
+			#image-navigation,
+			.entry-meta,
+			.comments-title,
+			.comment-navigation,
+			ol.commentlist,
+			#respond {
+				max-width: 660px;
+				max-width: 66rem;
+				margin-right: auto;
+				margin-left: auto;
+			}
+			.entry-title {
+				font-size: 30px;
+				font-size: 3rem;
+			}
+			.entry-content,
+			.entry-summary {
+				font-size: 16px;
+				font-size: 1.6rem;
+			}
+			.pingback, article.comment {
+				margin: 0 0 30px;
+				margin: 0 0 3rem;
+			}
 		}
-		.entry-header,
-		.entry-content,
-		.entry-summary,
-		#image-navigation,
-		.entry-meta,
-		.comments-title,
-		.comment-navigation,
-		ol.commentlist,
-		#respond {
-			max-width: 660px;
-			max-width: 66rem;
-			margin-right: auto;
-			margin-left: auto;
-		}
-		.entry-title {
-			font-size: 30px;
-			font-size: 3rem;
-		}
-		.entry-content,
-		.entry-summary {
-			font-size: 16px;
-			font-size: 1.6rem;
-		}
-		.pingback, article.comment {
-			margin: 0 0 30px;
-			margin: 0 0 3rem;
+		&.has-sidebar {
+			.content-area {
+				float: left;
+				width: 60rem;
+			}
+			.widget-area.sidebar {
+				float: right;
+				width: 20rem;
+			}
 		}
 	}
 }

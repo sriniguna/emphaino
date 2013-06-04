@@ -446,6 +446,11 @@ function emphaino_body_class($classes)
 	else
 		$classes[] = 'no-logo-image';
 
+	if( is_single() && is_active_sidebar( 'the-sidebar' ) )
+		$classes[] = 'has-sidebar';
+	else
+		$classes[] = 'no-sidebar';
+
 	if( ! is_singular() ) {
 		$classes[] = str_replace( '_', '-', get_theme_mod( 'posts_layout', emphaino_default_settings('posts_layout') ) );
 	}
