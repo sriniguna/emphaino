@@ -705,6 +705,7 @@ body {
   margin: 0 20rem 0 0;
 }
 .main-navigation ul {
+  position: static;
   list-style: none;
   margin: 0;
 }
