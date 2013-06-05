@@ -100,7 +100,10 @@
 	li {
 		display: inline-block;
 		position: relative;
+		margin-top: 0;
 		&:before {
+			position: static;
+			left: 0;
 			content: '|';
 			color: #7c8d95;
 			font-size: 0.75em;
