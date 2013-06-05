@@ -148,6 +148,9 @@ article.comment {
 	&:before {
 		color: #888;
 	}
+	&:empty:before {
+		display: none;
+	}
 }
 
 #respond {
@@ -184,6 +187,7 @@ article.comment {
 	&:before {
 		@include fontello;
 		content: '\e80b';
+		color: #f00;
 		opacity: 0.4;
 	}
 }
