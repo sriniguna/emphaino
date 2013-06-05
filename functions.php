@@ -446,7 +446,7 @@ function emphaino_body_class($classes)
 	else
 		$classes[] = 'no-logo-image';
 
-	if( ( is_single() || is_page() ) && is_active_sidebar( 'the-sidebar' ) )
+	if( is_active_sidebar( 'the-sidebar' ) )
 		$classes[] = 'has-sidebar';
 	else
 		$classes[] = 'no-sidebar';
