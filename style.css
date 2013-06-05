@@ -2145,6 +2145,30 @@ article.comment footer br {
     width: 70rem;
   }
 }
+/* 10col, 820px ( 10px + ( 10 * 80px ) + 10px ) */
+@media screen and (min-width: 51.25em) {
+  .single.has-sidebar .entry-title,
+  body.page.has-sidebar .entry-title,
+  .one-col-excerpts.has-sidebar .entry-title,
+  .one-col-full-posts.has-sidebar .entry-title,
+  .no-js.has-sidebar .entry-title {
+    font-size: 30px;
+    font-size: 3rem;
+  }
+  .single.has-sidebar .entry-content,
+  .single.has-sidebar .entry-summary,
+  body.page.has-sidebar .entry-content,
+  body.page.has-sidebar .entry-summary,
+  .one-col-excerpts.has-sidebar .entry-content,
+  .one-col-excerpts.has-sidebar .entry-summary,
+  .one-col-full-posts.has-sidebar .entry-content,
+  .one-col-full-posts.has-sidebar .entry-summary,
+  .no-js.has-sidebar .entry-content,
+  .no-js.has-sidebar .entry-summary {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+}
 /* 12col, 980px ( 10px + ( 12 * 80px ) + 10px ) */
 @media screen and (min-width: 61.25em) {
   .content-area {

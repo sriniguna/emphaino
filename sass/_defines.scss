@@ -293,6 +293,26 @@ $blocks-bg-color: #f8f8f8;
 		}
 	}
 }
+@mixin content-10col {
+	.single,
+	body.page,
+	.one-col-excerpts,
+	.one-col-full-posts,
+	.no-js {
+		&.has-sidebar {
+			.entry-title {
+				font-size: 30px;
+				font-size: 3rem;
+			}
+			.entry-content,
+			.entry-summary {
+				font-size: 16px;
+				font-size: 1.6rem;
+			}
+		}
+	}	
+}
+
 @mixin content-12col {
 	.content-area {
 		max-width: 940px;

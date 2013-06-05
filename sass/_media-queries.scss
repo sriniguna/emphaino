@@ -23,6 +23,11 @@
 	@include footer-9col;
 }
 
+/* 10col, 820px ( 10px + ( 10 * 80px ) + 10px ) */
+@media screen and (min-width: 51.25em) {
+	@include content-10col;
+}
+
 /* 12col, 980px ( 10px + ( 12 * 80px ) + 10px ) */
 @media screen and (min-width: 61.25em) {
 	@include content-12col;
