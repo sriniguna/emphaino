@@ -192,6 +192,21 @@ function emphaino_customize_register( $wp_customize ) {
 		'type' => 'checkbox',
 	) );
 
+	/* Option to disable the 'Go to Top' button */
+
+	$wp_customize->add_setting( 'disable_gototop', array(
+		'default' => emphaino_default_settings( 'disable_gototop' ),
+		'capability' => 'edit_theme_options',
+	) );
+
+	$wp_customize->add_control( 'emphaino_disable_gototop', array(
+		'label' => __( 'Disable "Go to Top" Button', 'emphaino' ),
+		'section' => 'other_settings',
+		'settings' => 'disable_gototop',
+		'type' => 'checkbox',
+	) );
+
+
 	/* Custom CSS */
 	$wp_customize->add_setting( 'custom_css', array(
 		'default' => emphaino_default_settings( 'custom_css' ),

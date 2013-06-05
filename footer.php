@@ -26,7 +26,9 @@
 	</footer><!-- #colophon .site-footer -->
 </div><!-- #page .hfeed .site -->
 
+<?php if( get_theme_mod( 'disable_gototop' ) != 'on' ): ?>
 <a href="#" class="back-to-top icon-up-open-mini"></a>
+<?php endif; ?>
 
 <?php wp_footer(); ?>
 
