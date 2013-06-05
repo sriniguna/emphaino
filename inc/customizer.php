@@ -34,26 +34,32 @@ function emphaino_customize_register( $wp_customize ) {
 	/* Theme specific sections */
 
 	$wp_customize->add_section( 'logo_settings', array(
-		'title' => __( 'Site Logo', 'emphaino'),
+		'title' => __( 'Site Logo', 'emphaino' ),
 		'priority' => 30,
 		)
 	);
 
 
 	$wp_customize->add_section( 'content_settings', array(
-		'title' => __( 'Content', 'emphaino'),
+		'title' => __( 'Content', 'emphaino' ),
 		'priority' => 120,
 		)
 	);
 
-	$wp_customize->add_section( 'footer_settings', array(
-		'title' => __( 'Footer', 'emphaino'),
+	$wp_customize->add_section( 'widget_area_settings', array(
+		'title' => __( 'Widget Area', 'emphaino' ),
 		'priority' => 121,
 		)
 	);
 
+	$wp_customize->add_section( 'footer_settings', array(
+		'title' => __( 'Footer', 'emphaino' ),
+		'priority' => 122,
+		)
+	);
+
 	$wp_customize->add_section( 'other_settings', array(
-		'title' => __( 'Other Settings', 'emphaino'),
+		'title' => __( 'Other Settings', 'emphaino' ),
 		'priority' => 200,
 		)
 	);
@@ -108,6 +114,22 @@ function emphaino_customize_register( $wp_customize ) {
 		'section' => 'content_settings',
 		'settings' => 'full_posts_feat_img',
 		'type' => 'checkbox',
+	) );
+
+
+	/* Sidebar visibility */
+
+	$wp_customize->add_setting( 'sidebar_in_posts_index', array(
+		'default' => emphaino_default_settings( 'sidebar_visibility' ),
+		'capability' => 'edit_theme_options',
+	) );
+
+
+	$wp_customize->add_control( 'emphaino_sidebar_in_posts_index', array(
+		'label'      => __( 'Show Sidebar in Blog Home and Archives', 'emphaino' ),
+		'section'    => 'widget_area_settings',
+		'settings'   => 'sidebar_in_posts_index',
+		'type'       => 'checkbox',
 	) );
 
 

@@ -26,6 +26,7 @@ function emphaino_default_settings( $setting = '' )
 		'logo_image'            => '',
 		'posts_layout'          => 'dynamic_grid_excerpts',
 		'full_posts_feat_img'   => 'on',
+		'sidebar_in_posts_index'=> false,
 		'footer_text'           => '&copy; '. date('Y') .' '. get_bloginfo('name').'.',
 		'link_color'			=> '#388ca4',
 		'non_responsive'        => false,
@@ -150,6 +151,7 @@ function emphaino_widgets_init() {
 	) );
 	register_sidebar( array(
 		'name' => __( 'Sidebar', 'emphaino' ),
+		'description' => (get_theme_mod('sidebar_in_posts_index') == 'on')?__( 'Appears in blog home, archives, single posts and pages.', 'emphanio' ):__( 'Appears in single posts and pages.', 'emphaino' ),
 		'id' => 'the-sidebar',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => '</aside>',
@@ -446,7 +448,7 @@ function emphaino_body_class($classes)
 	else
 		$classes[] = 'no-logo-image';
 
-	if( is_active_sidebar( 'the-sidebar' ) )
+	if( is_active_sidebar( 'the-sidebar' ) && !( ( is_home() || is_archive() ) && ( get_theme_mod( 'sidebar_in_posts_index' ) != 'on' ) ) )
 		$classes[] = 'has-sidebar';
 	else
 		$classes[] = 'no-sidebar';
