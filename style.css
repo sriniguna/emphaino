@@ -900,8 +900,9 @@ body {
   font: bold 1.2rem "PT Sans", Verdana, Geneva, sans-serif;
 }
 
-.not-found .entry-content {
-  text-align: center;
+.not-found #searchform {
+  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 .not-found #searchsubmit {
   display: inline-block;

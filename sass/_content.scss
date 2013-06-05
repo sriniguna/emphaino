@@ -86,8 +86,9 @@
 }
 
 .not-found {
-	.entry-content {
-		text-align: center;
+	#searchform {
+		margin-bottom: 30px;
+		margin-bottom: 3rem;
 	}
 	#searchsubmit {
 		display: inline-block;
