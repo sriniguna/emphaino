@@ -4,7 +4,7 @@ Theme URI: http://srinig.com/wordpress/themes/emphaino/
 Author: Srinivasan G
 Author URI: http://srinig.com/
 Description: The word 'emphaino' means "to show in, to exhibit;" (en, "in," phaino, "to cause to shine"). Let your thoughts, your work, your art shine with Emphaino, a modern, responsive WordPress theme. Clean design, emphasis on content. Customization through the interactive WP customizer interface. Compatible with WordPress 3.5 and above.
-Version: 1.1 + 0
+Version: 1.1 + 1
 License: GNU General Public License
 License URI: license.txt
 Tags: gray, white, light, one-column, three-columns, flexible-width, blavatar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, photoblogging
@@ -1520,6 +1520,7 @@ article.comment footer br {
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem inset;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem inset;
   box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem inset;
+  overflow: hidden;
   font-size: 12px;
   font-size: 1.2rem;
 }
@@ -1527,14 +1528,15 @@ article.comment footer br {
   font-size: 16px;
   font-size: 1.6rem;
 }
-.widget-area.footer-widget-area {
-  overflow: hidden;
-}
-.widget-area.footer-widget-area .widget {
+.widget-area .widget {
   width: 200px;
   float: left;
   padding: 0;
   margin: 10px;
+}
+.widget-area.sidebar {
+  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 .no-js #footer-widgets {
@@ -1549,7 +1551,7 @@ article.comment footer br {
   margin: 1rem 1.5rem;
 }
 
-#footer-widgets {
+#footer-widgets, #the-sidebar {
   margin: auto;
   width: 220px;
   width: 22rem;
@@ -1959,7 +1961,7 @@ article.comment footer br {
     font-size: 1.4rem;
   }
 
-  #footer-widgets {
+  #footer-widgets, #the-sidebar {
     width: 460px;
     width: 46rem;
   }
@@ -2067,13 +2069,21 @@ article.comment footer br {
     margin: 0 0 30px;
     margin: 0 0 3rem;
   }
+  .single.has-sidebar .site-main,
+  body.page.has-sidebar .site-main,
+  .one-col-excerpts.has-sidebar .site-main,
+  .one-col-full-posts.has-sidebar .site-main,
+  .no-js.has-sidebar .site-main {
+    padding: 0 24rem 0 0;
+  }
   .single.has-sidebar .content-area,
   body.page.has-sidebar .content-area,
   .one-col-excerpts.has-sidebar .content-area,
   .one-col-full-posts.has-sidebar .content-area,
   .no-js.has-sidebar .content-area {
     float: left;
-    width: 60rem;
+    margin-right: -100%;
+    width: 100%;
   }
   .single.has-sidebar .widget-area.sidebar,
   body.page.has-sidebar .widget-area.sidebar,
@@ -2081,7 +2091,31 @@ article.comment footer br {
   .one-col-full-posts.has-sidebar .widget-area.sidebar,
   .no-js.has-sidebar .widget-area.sidebar {
     float: right;
-    width: 20rem;
+    margin-right: -24rem;
+    width: 22rem;
+  }
+  .single.has-sidebar #the-sidebar,
+  body.page.has-sidebar #the-sidebar,
+  .one-col-excerpts.has-sidebar #the-sidebar,
+  .one-col-full-posts.has-sidebar #the-sidebar,
+  .no-js.has-sidebar #the-sidebar {
+    width: 22rem;
+  }
+  .single.has-sidebar .entry-title,
+  body.page.has-sidebar .entry-title,
+  .one-col-excerpts.has-sidebar .entry-title,
+  .one-col-full-posts.has-sidebar .entry-title,
+  .no-js.has-sidebar .entry-title {
+    text-align: left;
+  }
+  .single.has-sidebar .comment-meta,
+  body.page.has-sidebar .comment-meta,
+  .one-col-excerpts.has-sidebar .comment-meta,
+  .one-col-full-posts.has-sidebar .comment-meta,
+  .no-js.has-sidebar .comment-meta {
+    float: none;
+    position: relative;
+    top: 0;
   }
 
   #bottom-bar .footer-text {
@@ -2107,6 +2141,12 @@ article.comment footer br {
   .content-area {
     max-width: 940px;
     max-width: 94rem;
+  }
+
+  .single.has-sidebar .comment-meta, body.page.has-sidebar .comment-meta {
+    float: right;
+    top: -20px;
+    top: -2rem;
   }
 
   #footer-widgets {

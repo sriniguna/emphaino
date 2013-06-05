@@ -439,13 +439,21 @@ body.page.no-sidebar article.comment,
   margin: 0 0 30px;
   margin: 0 0 3rem;
 }
+.single.has-sidebar .site-main,
+body.page.has-sidebar .site-main,
+.one-col-excerpts.has-sidebar .site-main,
+.one-col-full-posts.has-sidebar .site-main,
+.no-js.has-sidebar .site-main {
+  padding: 0 24rem 0 0;
+}
 .single.has-sidebar .content-area,
 body.page.has-sidebar .content-area,
 .one-col-excerpts.has-sidebar .content-area,
 .one-col-full-posts.has-sidebar .content-area,
 .no-js.has-sidebar .content-area {
   float: left;
-  width: 60rem;
+  margin-right: -100%;
+  width: 100%;
 }
 .single.has-sidebar .widget-area.sidebar,
 body.page.has-sidebar .widget-area.sidebar,
@@ -453,12 +461,42 @@ body.page.has-sidebar .widget-area.sidebar,
 .one-col-full-posts.has-sidebar .widget-area.sidebar,
 .no-js.has-sidebar .widget-area.sidebar {
   float: right;
-  width: 20rem;
+  margin-right: -24rem;
+  width: 22rem;
+}
+.single.has-sidebar #the-sidebar,
+body.page.has-sidebar #the-sidebar,
+.one-col-excerpts.has-sidebar #the-sidebar,
+.one-col-full-posts.has-sidebar #the-sidebar,
+.no-js.has-sidebar #the-sidebar {
+  width: 22rem;
+}
+.single.has-sidebar .entry-title,
+body.page.has-sidebar .entry-title,
+.one-col-excerpts.has-sidebar .entry-title,
+.one-col-full-posts.has-sidebar .entry-title,
+.no-js.has-sidebar .entry-title {
+  text-align: left;
+}
+.single.has-sidebar .comment-meta,
+body.page.has-sidebar .comment-meta,
+.one-col-excerpts.has-sidebar .comment-meta,
+.one-col-full-posts.has-sidebar .comment-meta,
+.no-js.has-sidebar .comment-meta {
+  float: none;
+  position: relative;
+  top: 0;
 }
 
 .content-area {
   max-width: 940px;
   max-width: 94rem;
+}
+
+.single.has-sidebar .comment-meta, body.page.has-sidebar .comment-meta {
+  float: right;
+  top: -20px;
+  top: -2rem;
 }
 
 #footer-widgets {

@@ -6,7 +6,7 @@
  */
 
 jQuery(window).load(function(){
-    jQuery('#footer-widgets').masonry({
+    jQuery('#footer-widgets, #the-sidebar').masonry({
     	itemSelector: '.widget',
     	gutterWidth: 20,
     	isAnimated: true

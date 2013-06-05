@@ -266,13 +266,29 @@ $blocks-bg-color: #f8f8f8;
 			}
 		}
 		&.has-sidebar {
+			.site-main {
+				padding: 0 24rem 0 0;
+			}
 			.content-area {
 				float: left;
-				width: 60rem;
+				margin-right: -100%;
+				width: 100%;
 			}
 			.widget-area.sidebar {
 				float: right;
-				width: 20rem;
+				margin-right: -24rem;
+				width: 22rem;
+			}
+			#the-sidebar {
+				width: 22rem;
+			}
+			.entry-title {
+				text-align: left;
+			}
+			.comment-meta {
+				float: none;
+				position: relative;
+				top: 0;
 			}
 		}
 	}
@@ -282,10 +298,20 @@ $blocks-bg-color: #f8f8f8;
 		max-width: 940px;
 		max-width: 94rem;
 	}
+	.single, body.page
+	{
+		&.has-sidebar {
+			.comment-meta {
+				float: right;
+				top: -20px;
+				top: -2rem;
+			}
+		}
+	}
 }
 
 @mixin footer-6col {
-	#footer-widgets {
+	#footer-widgets, #the-sidebar {
 		width: 460px;
 		width: 46rem;
 	}
