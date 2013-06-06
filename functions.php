@@ -233,7 +233,7 @@ function emphaino_head()
 	echo '<script type="text/javascript">document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>';
 	if( get_theme_mod('logo_image') ) {
 ?><style type="text/css">
-.site-header hgroup {
+.site-header .site-branding {
 	position: absolute !important;
 	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
 	clip: rect(1px, 1px, 1px, 1px);
