@@ -698,6 +698,9 @@ body {
   margin: 0 10px;
   margin: 0 1rem;
 }
+.main-small-navigation ul li:before {
+  position: static;
+}
 
 .main-navigation {
   margin: 0 200px 0 0;

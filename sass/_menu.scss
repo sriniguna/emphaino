@@ -60,6 +60,9 @@
 	ul {
 		margin: 0 10px;
 		margin: 0 1rem;
+		li:before {
+			position: static;
+		}
 	}
 }
 
