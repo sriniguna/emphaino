@@ -5,9 +5,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Emphaino 1.0.2\n"
+"Project-Id-Version: Emphaino 1.2\n"
 "Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
-"POT-Creation-Date: 2013-02-26 11:58+0530\n"
+"POT-Creation-Date: 2013-06-06 10:20+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: content-single.php:22
-#: content-page.php:17
+#: content-page.php:24
 #: image.php:72
 #: content.php:24
 msgid "Pages:"
@@ -44,7 +44,7 @@ msgid "Post Permalink"
 msgstr ""
 
 #: content-single.php:49
-#: content-page.php:19
+#: content-page.php:26
 #: image.php:86
 #: content.php:58
 msgid "Edit"
@@ -118,7 +118,7 @@ msgid "Permalink to %s"
 msgstr ""
 
 #: content.php:23
-#: functions.php:385
+#: functions.php:421
 msgid "More <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
@@ -173,12 +173,24 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: functions.php:113
+#: functions.php:115
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:137
+#: functions.php:146
 msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:154
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:155
+msgid "Appears in blog home, archives, single posts and pages."
+msgstr ""
+
+#: functions.php:155
+msgid "Appears in single posts and pages."
 msgstr ""
 
 #: archive.php:22
@@ -270,12 +282,12 @@ msgstr ""
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: inc/template-tags.php:126
+#: inc/template-tags.php:124
 #, php-format
 msgid "<span class=\"posted-on icon-clock\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span> <span class=\"byline icon-user\"><span class=\"post-author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 msgstr ""
 
-#: inc/template-tags.php:132
+#: inc/template-tags.php:130
 #, php-format
 msgid "View all posts by %s"
 msgstr ""
@@ -289,54 +301,66 @@ msgid "Content"
 msgstr ""
 
 #: inc/customizer.php:50
-msgid "Footer"
+msgid "Widget Area"
 msgstr ""
 
 #: inc/customizer.php:56
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:62
 msgid "Other Settings"
 msgstr ""
 
-#: inc/customizer.php:71
+#: inc/customizer.php:77
 msgid "Logo Image (replaces site title and tagline)"
 msgstr ""
 
-#: inc/customizer.php:87
+#: inc/customizer.php:93
 msgid "Layout for Blog Home and Archives"
 msgstr ""
 
-#: inc/customizer.php:92
+#: inc/customizer.php:98
 msgid "Dynamic Grid layout with excerpts"
 msgstr ""
 
-#: inc/customizer.php:93
+#: inc/customizer.php:99
 msgid "One Column layout with excerpts"
 msgstr ""
 
-#: inc/customizer.php:94
+#: inc/customizer.php:100
 msgid "One Column layout with full posts"
 msgstr ""
 
-#: inc/customizer.php:107
+#: inc/customizer.php:113
 msgid "Featured Image in Full Post Displays"
 msgstr ""
 
-#: inc/customizer.php:123
+#: inc/customizer.php:129
+msgid "Show Sidebar in Blog Home and Archives"
+msgstr ""
+
+#: inc/customizer.php:145
 msgid "Footer Text"
 msgstr ""
 
-#: inc/customizer.php:138
+#: inc/customizer.php:160
 msgid "Link Color"
 msgstr ""
 
-#: inc/customizer.php:152
+#: inc/customizer.php:174
 msgid "Disable Responsiveness"
 msgstr ""
 
-#: inc/customizer.php:167
+#: inc/customizer.php:189
 msgid "Disable Google Webfonts"
 msgstr ""
 
-#: inc/customizer.php:180
+#: inc/customizer.php:203
+msgid "Disable \"Go to Top\" Button"
+msgstr ""
+
+#: inc/customizer.php:217
 msgid "Custom CSS"
 msgstr ""
 
