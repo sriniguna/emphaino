@@ -8,7 +8,8 @@ Main Features
 
 * Responsive. The layout fits and adapts itself to any screen the site is viewed in. Responsiveness can be turned off if desired.
 * Entries in blog home and archives arrange themselves in a dynamic grid layout. The dynamic grid layout can be turned off optionally and the entries be displayed in traditional fashion.
-* One widget area, in the footer, where the widgets are arranged in a dynamic grid layout.
+* Primary widget area in the footer, where the widgets are arranged in a dynamic grid layout.
+* Secondary widget area displayed as a sidebar in single posts and pages. Optionally, this widget area can be turned on in blog home and archive pages too.
 * One navigation menu in the header.
 * Custom header and custom logo image.
 * Custom background.
@@ -49,6 +50,11 @@ Notes
 ### Custom Header ###
 
 Even though a header image of any size can be uploaded, the suggested size is 940x140 pixels. A 940x140 image will appear as is in the front end, and images of the same ratio (such as 1880x280 px) may appear scaled down/up depending on the pixel density and viewport width, but without any hidden edges. Images of different ratios may have a portion of their edges hidden when viewed from the front end, this is normal behaviour.
+
+
+### Sidebar ###
+
+When the sidebar is enabled in the home page and the archives, and dynamic grid format is selected for the posts in home page and archives, the sidebar drops down to the bottom just above the footer widget area. The sidebar similarly drops down in narrow viewports.
 
 
 Support
