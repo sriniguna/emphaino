@@ -67,8 +67,6 @@ get_header(); ?>
 					?>
 				</header><!-- .page-header -->
 
-				<?php emphaino_content_nav( 'nav-above' ); ?>
-
 				<?php if ( 'dynamic_grid_excerpts' == get_theme_mod( 'posts_layout', emphaino_default_settings('posts_layout') ) ) echo '<div id="dynamic-grid" class="clearfix">'; ?>
 
 				<?php /* Start the Loop */ ?>
