@@ -5,8 +5,8 @@ Translation credits
 -------------------
 
 | Code     | Language               | Translator            |
-| -------- |:----------------------:| ---------------------:|
-| fr_FR    |French                  | [Lumière de Lune](http://www.lumieredelune.com/) |
+| -------- | ---------------------- | --------------------- |
+| `fr_FR`  | French                 | [Lumière de Lune](http://www.lumieredelune.com/) |
 
 
 Translating the Theme
