@@ -1,0 +1,359 @@
+# Emphaino WordPress Theme. Translation template file.
+# Copyright (C) 2013 Srinivasan G <srinig.com@gmail.com>
+# This file is distributed under the same license as the Emphaino.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Emphaino 1.0.2\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2013-02-26 11:58+0530\n"
+"PO-Revision-Date: 2013-03-16 15:29-0000\n"
+"Last-Translator: Marie-Aude Koiransky <contact@lumieredelune.com>\n"
+"Language-Team: Lumière de Lune <contact@lumieredelune.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"Language: fr_FR\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\Users\\Marie-Aude\\Documents\\www\\000_packsites"
+"\\bijouxhomme\\wp-content\\themes\n"
+
+#: content-single.php:22 content-page.php:17 image.php:72 content.php:24
+msgid "Pages:"
+msgstr "Pages :"
+
+#: content-single.php:29 content-single.php:39
+msgid ", "
+msgstr ", "
+
+#: content-single.php:33
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Publié dans %1$s"
+
+#: content-single.php:43
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Mots clés : %1$s"
+
+#: content-single.php:47
+msgid "Post Permalink"
+msgstr "Permalien de l'article"
+
+#: content-single.php:49 content-page.php:19 image.php:86 content.php:58
+msgid "Edit"
+msgstr "Modifer"
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour %s"
+
+#: footer.php:22
+#, php-format
+msgid "Powered by %s."
+msgstr "Propulsé par %s."
+
+#: footer.php:22
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Une plateforme de publication personnelle sémantique"
+
+#: footer.php:23
+#, php-format
+msgid "Theme %s."
+msgstr "Thème %s."
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "Rien n'a été trouvé"
+
+#: no-results.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Prêt à publier votre premier article ? <a href=\"%1$s\">On commence ici</a>."
+
+#: no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Nous sommes désolés, votre recherche n'a pas de correspondance. Merci "
+"d'essayer à nouveau, avec des mots clés différents."
+
+#: no-results.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Il semble que nous n'arrivons pas à trouver la page que vous voulez. Peut-"
+"être la recherche peut vous aider."
+
+#: image.php:77
+msgid "&larr; Previous"
+msgstr "&larr; Précédent"
+
+#: image.php:78
+msgid "Next &rarr;"
+msgstr "Suivant &rarr;"
+
+#: image.php:83
+#, php-format
+msgid "Return to %s"
+msgstr "Retourner à %s"
+
+#: image.php:85
+msgid "Full Size"
+msgstr "Pleine taille"
+
+#: searchform.php:10 searchform.php:12
+msgid "Search"
+msgstr "Rechercher"
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr "Rechercher &hellip;"
+
+#: content.php:10
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalien vers %s"
+
+#: content.php:23 functions.php:385
+msgid "More <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Plus <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:51
+msgid "Leave a comment"
+msgstr "Commenter"
+
+#: content.php:51
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: content.php:51
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: content.php:55
+msgid "Sticky Post"
+msgstr "Article mis en avant"
+
+#: comments.php:28
+msgid "One Comment"
+msgstr "Un commentaire"
+
+#: comments.php:35 comments.php:55
+msgid "Comment navigation"
+msgstr "Naviguer dans les commentaires"
+
+#: comments.php:36 comments.php:56
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires précédents"
+
+#: comments.php:37 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr "Nouveaux commentaires &rarr;"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: header.php:35
+msgid "Home"
+msgstr "Accueil"
+
+#: header.php:39
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:40
+msgid "Skip to content"
+msgstr "Passer au contenu"
+
+#: functions.php:113
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: functions.php:137
+msgid "Footer Widget Area"
+msgstr "Zone de widget du pied de page"
+
+#: archive.php:22
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Archives de catégories : %s"
+
+#: archive.php:25
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archives du mot clé %s"
+
+#: archive.php:32
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archives de l'auteur : %s"
+
+#: archive.php:40
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archives du jour : %s"
+
+#: archive.php:43
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archives du Mois : %s"
+
+#: archive.php:46
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archives de l'année : %s"
+
+#: archive.php:49
+msgid "Archives"
+msgstr "Archives"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups ! Cette page ne peut pas être affichée."
+
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Il semble qu'il n'y ait rien à cette adresse. Nous vous suggérons un des "
+"liens ci-dessous, ou de faire une recherche ?"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Catégories les plus utilisées"
+
+#: 404.php:35
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Essayez dans les archives du mois. %1s"
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr "Naviguer dans les articles"
+
+#: inc/template-tags.php:43
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:44
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articles plus anciens"
+
+#: inc/template-tags.php:53
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articles plus récents <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:78
+msgid "Pingback:"
+msgstr "Pingback :"
+
+#: inc/template-tags.php:78 inc/template-tags.php:101
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#: inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: inc/template-tags.php:99
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: inc/template-tags.php:126
+#, php-format
+msgid ""
+"<span class=\"posted-on icon-clock\"><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></"
+"span> <span class=\"byline icon-user\"><span class=\"post-author vcard\"><a "
+"class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></"
+"span></span>"
+msgstr ""
+"<span class=\"posted-on icon-clock\"><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></"
+"span> <span class=\"byline icon-user\"><span class=\"post-author vcard\"><a "
+"class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></"
+"span></span>"
+
+#: inc/template-tags.php:132
+#, php-format
+msgid "View all posts by %s"
+msgstr "Voir tous les articles par %s"
+
+#: inc/customizer.php:37
+msgid "Site Logo"
+msgstr "Logo du site"
+
+#: inc/customizer.php:44
+msgid "Content"
+msgstr "Contenu"
+
+#: inc/customizer.php:50
+msgid "Footer"
+msgstr "Pied de page"
+
+#: inc/customizer.php:56
+msgid "Other Settings"
+msgstr "Autres réglages"
+
+#: inc/customizer.php:71
+msgid "Logo Image (replaces site title and tagline)"
+msgstr "Image pour le logo (remplace le titre du site et le slogan)"
+
+#: inc/customizer.php:87
+msgid "Layout for Blog Home and Archives"
+msgstr "Disposition de l'accueil du blog et des archives"
+
+#: inc/customizer.php:92
+msgid "Dynamic Grid layout with excerpts"
+msgstr "Grille dynamique avec extraits"
+
+#: inc/customizer.php:93
+msgid "One Column layout with excerpts"
+msgstr "Une seule colonne avec extraits"
+
+#: inc/customizer.php:94
+msgid "One Column layout with full posts"
+msgstr "Une seule colonne avec l'article entier"
+
+#: inc/customizer.php:107
+msgid "Featured Image in Full Post Displays"
+msgstr "Afficher l'image à la une dans l'article seul"
+
+#: inc/customizer.php:123
+msgid "Footer Text"
+msgstr "Texte du pied de page"
+
+#: inc/customizer.php:138
+msgid "Link Color"
+msgstr "Couleur du lien"
+
+#: inc/customizer.php:152
+msgid "Disable Responsiveness"
+msgstr "Désactiver la gestion du responsive"
+
+#: inc/customizer.php:167
+msgid "Disable Google Webfonts"
+msgstr "Désactiver les fonts Google"
+
+#: inc/customizer.php:180
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: inc/extras.php:75
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
