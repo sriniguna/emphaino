@@ -19,7 +19,7 @@ Translating the Theme
 
 Instead of manually editing the 'po' file and generating an 'mo' file, you can use an application like [poEdit](http://www.poedit.net/).
 
-If you wish to share your translation, send the files to the theme author (srinig.com@gmail.com) and your translation will be bundled with the next version of the theme.
+If you wish to share your translation, send the files to the theme author (srinig.com@gmail.com) and your translation will be bundled with the next version of the theme. You can also send a pull request to https://github.com/sriniguna/emphaino.
 
 
 Useful links

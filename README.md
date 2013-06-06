@@ -65,3 +65,5 @@ Please use the WordPress support forums for feedback and support. Go to http://s
 ------------------------------------------------------
 
 [Emphaino Home Page]: http://srinig.com/wordpress/themes/emphaino/
+[Emphaino in the WordPress theme directory]: http://wordpress.org/themes/emphaino
+[Emphaino on GitHub]: https://github.com/sriniguna/emphaino
