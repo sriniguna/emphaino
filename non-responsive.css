@@ -444,6 +444,7 @@ body.page.has-sidebar .site-main,
 .one-col-excerpts.has-sidebar .site-main,
 .one-col-full-posts.has-sidebar .site-main,
 .no-js.has-sidebar .site-main {
+  padding: 0 240px 0 0;
   padding: 0 24rem 0 0;
 }
 .single.has-sidebar .content-area,
@@ -461,7 +462,9 @@ body.page.has-sidebar .widget-area.sidebar,
 .one-col-full-posts.has-sidebar .widget-area.sidebar,
 .no-js.has-sidebar .widget-area.sidebar {
   float: right;
+  margin-right: -240px;
   margin-right: -24rem;
+  width: 220px;
   width: 22rem;
 }
 .single.has-sidebar #the-sidebar,
@@ -469,6 +472,7 @@ body.page.has-sidebar #the-sidebar,
 .one-col-excerpts.has-sidebar #the-sidebar,
 .one-col-full-posts.has-sidebar #the-sidebar,
 .no-js.has-sidebar #the-sidebar {
+  width: 220px;
   width: 22rem;
 }
 .single.has-sidebar .entry-title,
@@ -486,6 +490,28 @@ body.page.has-sidebar .comment-meta,
   float: none;
   position: relative;
   top: 0;
+}
+
+.single.has-sidebar .entry-title,
+body.page.has-sidebar .entry-title,
+.one-col-excerpts.has-sidebar .entry-title,
+.one-col-full-posts.has-sidebar .entry-title,
+.no-js.has-sidebar .entry-title {
+  font-size: 30px;
+  font-size: 3rem;
+}
+.single.has-sidebar .entry-content,
+.single.has-sidebar .entry-summary,
+body.page.has-sidebar .entry-content,
+body.page.has-sidebar .entry-summary,
+.one-col-excerpts.has-sidebar .entry-content,
+.one-col-excerpts.has-sidebar .entry-summary,
+.one-col-full-posts.has-sidebar .entry-content,
+.one-col-full-posts.has-sidebar .entry-summary,
+.no-js.has-sidebar .entry-content,
+.no-js.has-sidebar .entry-summary {
+  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .content-area {

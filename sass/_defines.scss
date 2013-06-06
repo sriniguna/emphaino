@@ -267,6 +267,7 @@ $blocks-bg-color: #f8f8f8;
 		}
 		&.has-sidebar {
 			.site-main {
+				padding: 0 240px 0 0;
 				padding: 0 24rem 0 0;
 			}
 			.content-area {
@@ -276,10 +277,13 @@ $blocks-bg-color: #f8f8f8;
 			}
 			.widget-area.sidebar {
 				float: right;
+				margin-right: -240px;
 				margin-right: -24rem;
+				width: 220px;
 				width: 22rem;
 			}
 			#the-sidebar {
+				width: 220px;
 				width: 22rem;
 			}
 			.entry-title {
@@ -370,6 +374,7 @@ $blocks-bg-color: #f8f8f8;
 	@include entries-4col;
 	@include body-6col;
 	@include content-8col;
+	@include content-10col;
 	@include content-12col;
 	@include footer-12col;
 	@include bottom-bar-8col;

@@ -2082,6 +2082,7 @@ article.comment footer br {
   .one-col-excerpts.has-sidebar .site-main,
   .one-col-full-posts.has-sidebar .site-main,
   .no-js.has-sidebar .site-main {
+    padding: 0 240px 0 0;
     padding: 0 24rem 0 0;
   }
   .single.has-sidebar .content-area,
@@ -2099,7 +2100,9 @@ article.comment footer br {
   .one-col-full-posts.has-sidebar .widget-area.sidebar,
   .no-js.has-sidebar .widget-area.sidebar {
     float: right;
+    margin-right: -240px;
     margin-right: -24rem;
+    width: 220px;
     width: 22rem;
   }
   .single.has-sidebar #the-sidebar,
@@ -2107,6 +2110,7 @@ article.comment footer br {
   .one-col-excerpts.has-sidebar #the-sidebar,
   .one-col-full-posts.has-sidebar #the-sidebar,
   .no-js.has-sidebar #the-sidebar {
+    width: 220px;
     width: 22rem;
   }
   .single.has-sidebar .entry-title,
