@@ -120,7 +120,7 @@ function emphaino_customize_register( $wp_customize ) {
 	/* Sidebar visibility */
 
 	$wp_customize->add_setting( 'sidebar_in_posts_index', array(
-		'default' => emphaino_default_settings( 'sidebar_visibility' ),
+		'default' => emphaino_default_settings( 'sidebar_in_posts_index' ),
 		'capability' => 'edit_theme_options',
 	) );
 
