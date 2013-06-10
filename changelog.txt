@@ -2,8 +2,16 @@ Changelog
 =========
 
 
+2013-06-10: Version 1.2.1
+-------------------------
+
+* Fixed error in the sidebar option in theme customizer.
+
+
+
 2013-06-07: Version 1.2
 -----------------------
+
 * Sidebar widget area added. When widgets are added to this widget area, it appears as a sidebar in single posts and pages. Optionally this widget area can be enabled in blog home and archive pages too.
 * Enabled all post formats.
 * Added "Back to Top" button and an option to disable the button.
