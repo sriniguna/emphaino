@@ -1,0 +1,370 @@
+# Emphaino WordPress Theme. Translation template file.
+# Copyright (C) 2013 Srinivasan G <srinig.com@gmail.com>
+# This file is distributed under the same license as the Emphaino.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Emphaino 1.2\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2013-06-06 10:20+0530\n"
+"PO-Revision-Date: 2013-06-20 12:18+0100\n"
+"Last-Translator: Rob Meerwijk <rob@meerwijk.dk>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: content-single.php:22
+#: content-page.php:24
+#: image.php:72
+#: content.php:24
+msgid "Pages:"
+msgstr "Pagina's"
+
+#: content-single.php:29
+#: content-single.php:39
+msgid ", "
+msgstr ","
+
+#: content-single.php:33
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Geplaatst in %1$s"
+
+#: content-single.php:43
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Getagd in %1$s"
+
+#: content-single.php:47
+msgid "Post Permalink"
+msgstr "Permanente link"
+
+#: content-single.php:49
+#: content-page.php:26
+#: image.php:86
+#: content.php:58
+msgid "Edit"
+msgstr "Bewerk"
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#: footer.php:22
+#, php-format
+msgid "Powered by %s."
+msgstr "Powered by %s."
+
+#: footer.php:22
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Een semantisch persoonlijk publiceerplatform"
+
+#: footer.php:23
+#, php-format
+msgid "Theme %s."
+msgstr "Thema %s."
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "Geen resultaten"
+
+#: no-results.php:20
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Wilt u uw eerste bericht plaatsen?  <a href=\"%1$s\">Begin hier</a>."
+
+#: no-results.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Helaas, niets gevonden. Probeer andere zoektermen. "
+
+#: no-results.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "We hebben niet gevonden wat u zocht. Probeer om te zoeken. "
+
+#: image.php:77
+msgid "&larr; Previous"
+msgstr "&larr; Vorige"
+
+#: image.php:78
+msgid "Next &rarr;"
+msgstr "Volgende &rarr;"
+
+#: image.php:83
+#, php-format
+msgid "Return to %s"
+msgstr "Terug naar %s"
+
+#: image.php:85
+msgid "Full Size"
+msgstr "Volledige grootte"
+
+#: searchform.php:10
+#: searchform.php:12
+msgid "Search"
+msgstr "Zoek"
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr "Zoek &hellip;"
+
+#: content.php:10
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permanente link naar %s"
+
+#: content.php:23
+#: functions.php:421
+msgid "More <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lees meer <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:51
+msgid "Leave a comment"
+msgstr "Uw reactie"
+
+#: content.php:51
+msgid "1 Comment"
+msgstr "1 reactie"
+
+#: content.php:51
+msgid "% Comments"
+msgstr "% reacties"
+
+#: content.php:55
+msgid "Sticky Post"
+msgstr "Sticky bericht"
+
+#: comments.php:28
+msgid "One Comment"
+msgstr "Één reactie"
+
+#: comments.php:35
+#: comments.php:55
+msgid "Comment navigation"
+msgstr "Klik door uw berichten"
+
+#: comments.php:36
+#: comments.php:56
+msgid "&larr; Older Comments"
+msgstr "&larr; Eerdere reacties"
+
+#: comments.php:37
+#: comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr "Latere reacties &rarr;"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Reacties zijn niet meer mogelijk"
+
+#: header.php:35
+msgid "Home"
+msgstr "Home"
+
+#: header.php:39
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:40
+msgid "Skip to content"
+msgstr "Naar de inhoud"
+
+#: functions.php:115
+msgid "Primary Menu"
+msgstr "Hoofdmenu"
+
+#: functions.php:146
+msgid "Footer Widget Area"
+msgstr "Voet widget gebied"
+
+#: functions.php:154
+msgid "Sidebar"
+msgstr "Zijkolom"
+
+#: functions.php:155
+msgid "Appears in blog home, archives, single posts and pages."
+msgstr "Verschijnt in blog home, archieven, berichten en pagina's"
+
+#: functions.php:155
+msgid "Appears in single posts and pages."
+msgstr "Verschijnt in berichten en pagina's"
+
+#: archive.php:22
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Categorie archieven: %s"
+
+#: archive.php:25
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Tag archiven: %s"
+
+#: archive.php:32
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Auteur archieven: %s"
+
+#: archive.php:40
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Dagelijks archieven: %s"
+
+#: archive.php:43
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Maandelijkse archieven: %s"
+
+#: archive.php:46
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Jaarlijkse archieven: %s"
+
+#: archive.php:49
+msgid "Archives"
+msgstr "Berichtenarchief"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Helaas, deze pagina bestaat niet. "
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Niets gevonden. U kunt de onderstaande links proberen."
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Meest gebruikte categorieën"
+
+#: 404.php:35
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Kijk ook in de maandelijkse archieven. %1$s"
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr "Klik door de berichten"
+
+#: inc/template-tags.php:43
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:44
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Eerdere berichten"
+
+#: inc/template-tags.php:53
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Latere berichten <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:78
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:78
+#: inc/template-tags.php:101
+msgid "(Edit)"
+msgstr "(Bewerk)"
+
+#: inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr "Uw reactie wacht op moderatie. "
+
+#: inc/template-tags.php:99
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s op %2$s"
+
+#: inc/template-tags.php:124
+#, php-format
+msgid "<span class=\"posted-on icon-clock\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span> <span class=\"byline icon-user\"><span class=\"post-author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<span class=\"posted-on icon-clock\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span> <span class=\"byline icon-user\"><span class=\"post-author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: inc/template-tags.php:130
+#, php-format
+msgid "View all posts by %s"
+msgstr "Bekijk alle berichten van %s"
+
+#: inc/customizer.php:37
+msgid "Site Logo"
+msgstr "Site Logo"
+
+#: inc/customizer.php:44
+msgid "Content"
+msgstr "Inhoud"
+
+#: inc/customizer.php:50
+msgid "Widget Area"
+msgstr "Widget gebied"
+
+#: inc/customizer.php:56
+msgid "Footer"
+msgstr "Voettekst"
+
+#: inc/customizer.php:62
+msgid "Other Settings"
+msgstr "Overige instellingen"
+
+#: inc/customizer.php:77
+msgid "Logo Image (replaces site title and tagline)"
+msgstr "Logo (vervangt site titel en tagline)"
+
+#: inc/customizer.php:93
+msgid "Layout for Blog Home and Archives"
+msgstr "Layout voor Blog Home and Archives"
+
+#: inc/customizer.php:98
+msgid "Dynamic Grid layout with excerpts"
+msgstr "Dynamische tegellayout met uittreksel"
+
+#: inc/customizer.php:99
+msgid "One Column layout with excerpts"
+msgstr "1-kolomlayout met uittreksels"
+
+#: inc/customizer.php:100
+msgid "One Column layout with full posts"
+msgstr "1-kolomlayout met volledige berichten"
+
+#: inc/customizer.php:113
+msgid "Featured Image in Full Post Displays"
+msgstr "Featured image in volledige berichtenpagina"
+
+#: inc/customizer.php:129
+msgid "Show Sidebar in Blog Home and Archives"
+msgstr "Toon zijkolom in blog home en archieven"
+
+#: inc/customizer.php:145
+msgid "Footer Text"
+msgstr "Voettekst"
+
+#: inc/customizer.php:160
+msgid "Link Color"
+msgstr "Linkkleur"
+
+#: inc/customizer.php:174
+msgid "Disable Responsiveness"
+msgstr "Zet Responsiveness uit"
+
+#: inc/customizer.php:189
+msgid "Disable Google Webfonts"
+msgstr "Schakel Google Webfonts uit"
+
+#: inc/customizer.php:203
+msgid "Disable \"Go to Top\" Button"
+msgstr "Schakel \"terug naar boven\" knop uit"
+
+#: inc/customizer.php:217
+msgid "Custom CSS"
+msgstr "Aangepast CSS"
+
+#: inc/extras.php:75
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+

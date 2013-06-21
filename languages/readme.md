@@ -7,6 +7,7 @@ Translation credits
 | Code     | Language               | Translator            |
 | -------- | ---------------------- | --------------------- |
 | `fr_FR`  | French                 | [Lumière de Lune](http://www.lumieredelune.com/) |
+| `nl_NL`  | Dutch                  | Rob Meerwijk          |
 | `pl_PL`  | Polish                 | Katarzyna Matylla     |
 
 
