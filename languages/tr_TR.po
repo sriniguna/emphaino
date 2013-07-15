@@ -1,0 +1,380 @@
+# Emphaino WordPress Theme. Translation template file.
+# Copyright (C) 2013 Srinivasan G <srinig.com@gmail.com>
+# This file is distributed under the same license as the Emphaino.
+# Ozan Çağlayan <ozancag@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Emphaino 1.2\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2013-06-06 10:20+0530\n"
+"PO-Revision-Date: 2013-07-15 18:37+0300\n"
+"Last-Translator: Ozan Çağlayan <ozancag@gmail.com>\n"
+"Language-Team: Turkish <>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: content-single.php:22 content-page.php:24 image.php:72 content.php:24
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: content-single.php:29 content-single.php:39
+msgid ", "
+msgstr ", "
+
+#: content-single.php:33
+#, php-format
+msgid "Posted in %1$s"
+msgstr "%1$s kategorilerine ait"
+
+#: content-single.php:43
+#, php-format
+msgid "Tagged %1$s"
+msgstr "%1$s ile etiketli"
+
+#: content-single.php:47
+msgid "Post Permalink"
+msgstr "Kalıcı Bağlantı"
+
+#: content-single.php:49 content-page.php:26 image.php:86 content.php:58
+msgid "Edit"
+msgstr "Düzenle"
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr "%s için Arama Sonuçları"
+
+#: footer.php:22
+#, php-format
+msgid "Powered by %s."
+msgstr "Altyapı %s."
+
+#: footer.php:22
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Kişisel Semantik Yayın Platformu"
+
+#: footer.php:23
+#, php-format
+msgid "Theme %s."
+msgstr "%s Teması."
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "Hiçbir Şey Bulunamadı."
+
+#: no-results.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"İlk gönderinizi yayınlamaya hazır mısınız? <a href=\"%1$s\">Buradan "
+"başlayın</a>."
+
+#: no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Arama kriterlerine uygun sonuç bulunamadı. Başka kelimelerle tekrar deneyin."
+
+#: no-results.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Lütfen arama yapmayı deneyin."
+
+#: image.php:77
+msgid "&larr; Previous"
+msgstr "&larr; Önceki"
+
+#: image.php:78
+msgid "Next &rarr;"
+msgstr "Sonraki &rarr;"
+
+#: image.php:83
+#, php-format
+msgid "Return to %s"
+msgstr "%s'e geri dön"
+
+#: image.php:85
+msgid "Full Size"
+msgstr "Tam Boy"
+
+#: searchform.php:10 searchform.php:12
+msgid "Search"
+msgstr "Ara"
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr "Ara &hellip;"
+
+#: content.php:10
+#, php-format
+msgid "Permalink to %s"
+msgstr "%s için kalıcı bağlantı"
+
+#: content.php:23 functions.php:421
+msgid "More <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Daha fazla <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:51
+msgid "Leave a comment"
+msgstr "Yorum bırak"
+
+#: content.php:51
+msgid "1 Comment"
+msgstr "1 Yorum"
+
+#: content.php:51
+msgid "% Comments"
+msgstr "% Yorum"
+
+#: content.php:55
+msgid "Sticky Post"
+msgstr "Yapışkan Gönderi"
+
+#: comments.php:28
+msgid "One Comment"
+msgstr "Bir Yorum"
+
+#: comments.php:35 comments.php:55
+msgid "Comment navigation"
+msgstr "Yorum gezinmesi"
+
+#: comments.php:36 comments.php:56
+msgid "&larr; Older Comments"
+msgstr "&larr; Eski Yorumlar"
+
+#: comments.php:37 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr "Yeni Yorumlar &rarr;"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Yorumlar kapalı."
+
+#: header.php:35
+msgid "Home"
+msgstr "Ana Sayfa"
+
+#: header.php:39
+msgid "Menu"
+msgstr "Menü"
+
+#: header.php:40
+msgid "Skip to content"
+msgstr "İçeriğe atla"
+
+#: functions.php:115
+msgid "Primary Menu"
+msgstr "Birincil Menü"
+
+#: functions.php:146
+msgid "Footer Widget Area"
+msgstr "Sayfa Altlığı Parçacık Alanı"
+
+#: functions.php:154
+msgid "Sidebar"
+msgstr "Yan Çubuk"
+
+#: functions.php:155
+msgid "Appears in blog home, archives, single posts and pages."
+msgstr "Ana sayfada, arşivlerde, gönderilerde ve sayfalarda görünür."
+
+#: functions.php:155
+msgid "Appears in single posts and pages."
+msgstr "Gönderilerde ve sayfalarda görünür."
+
+#: archive.php:22
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Kategori Arşivleri: %s"
+
+#: archive.php:25
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Etiket Arşivleri: %s"
+
+#: archive.php:32
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Yazar Arşivleri: %s"
+
+#: archive.php:40
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Günlük Arşivler: %s"
+
+#: archive.php:43
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Aylık Arşivler: %s"
+
+#: archive.php:46
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Yıllık Arşivler: %s"
+
+#: archive.php:49
+msgid "Archives"
+msgstr "Arşivler"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Sayfa bulunamadı."
+
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Bu konumda hiçbir şey bulunamadı. Aşağıdaki bağlantılardan birini deneyin "
+"veya arama yapın."
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "En Sık Kullanılan Kategoriler"
+
+#: 404.php:35
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Aylık arşivlere bakmayı deneyin. %1$s"
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr "Gönderi gezinmesi"
+
+#: inc/template-tags.php:43
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:44
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Eski gönderiler"
+
+#: inc/template-tags.php:53
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Yeni gönderiler <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:78
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:78 inc/template-tags.php:101
+msgid "(Edit)"
+msgstr "(Düzenle)"
+
+#: inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr "Yorumunuz moderasyon onayı beklemektedir."
+
+#: inc/template-tags.php:99
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s, Saat %2$s"
+
+#: inc/template-tags.php:124
+#, php-format
+msgid ""
+"<span class=\"posted-on icon-clock\"><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></"
+"span> <span class=\"byline icon-user\"><span class=\"post-author vcard\"><a "
+"class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></"
+"span></span>"
+msgstr ""
+"<span class=\"posted-on icon-clock\"><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></"
+"span> <span class=\"byline icon-user\"><span class=\"post-author vcard\"><a "
+"class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></"
+"span></span>"
+
+#: inc/template-tags.php:130
+#, php-format
+msgid "View all posts by %s"
+msgstr "%s tarafından yazılan tüm gönderileri göster"
+
+#: inc/customizer.php:37
+msgid "Site Logo"
+msgstr "Site Logosu"
+
+#: inc/customizer.php:44
+msgid "Content"
+msgstr "İçerik"
+
+#: inc/customizer.php:50
+msgid "Widget Area"
+msgstr "Parçacık Alanı"
+
+#: inc/customizer.php:56
+msgid "Footer"
+msgstr "Sayfa Altlığı"
+
+#: inc/customizer.php:62
+msgid "Other Settings"
+msgstr "Diğer Ayarlar"
+
+#: inc/customizer.php:77
+msgid "Logo Image (replaces site title and tagline)"
+msgstr "Logo Görseli (Site başlığı ve sloganını kapatır)"
+
+#: inc/customizer.php:93
+msgid "Layout for Blog Home and Archives"
+msgstr "Ana Sayfa ve Arşiv Yerleşimi"
+
+#: inc/customizer.php:98
+msgid "Dynamic Grid layout with excerpts"
+msgstr "Metin Özetli Dinamik Izgara Yerleşimi"
+
+#: inc/customizer.php:99
+msgid "One Column layout with excerpts"
+msgstr "Metin Özetli Tek Sütun Yerleşimi"
+
+#: inc/customizer.php:100
+msgid "One Column layout with full posts"
+msgstr "Tam Metinli Tek Sütun Yerleşimi"
+
+#: inc/customizer.php:113
+msgid "Featured Image in Full Post Displays"
+msgstr "Tam Metinli Görünümde Özel Görseli Göster"
+
+#: inc/customizer.php:129
+msgid "Show Sidebar in Blog Home and Archives"
+msgstr "Ana Sayfa ve Arşivde Yan Çubuğu Göster"
+
+#: inc/customizer.php:145
+msgid "Footer Text"
+msgstr "Sayfa Altlığı Metni"
+
+#: inc/customizer.php:160
+msgid "Link Color"
+msgstr "Bağlantı Rengi"
+
+#: inc/customizer.php:174
+msgid "Disable Responsiveness"
+msgstr "Yanıtlılığı (Responsiveness) Kapat"
+
+#: inc/customizer.php:189
+msgid "Disable Google Webfonts"
+msgstr "Google Webfonts Kullanma"
+
+#: inc/customizer.php:203
+msgid "Disable \"Go to Top\" Button"
+msgstr "\"Yukarı Git\" Düğmesini Gösterme"
+
+#: inc/customizer.php:217
+msgid "Custom CSS"
+msgstr "Özel CSS"
+
+#: inc/extras.php:75
+#, php-format
+msgid "Page %s"
+msgstr "%s Sayfası"
