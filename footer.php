@@ -19,7 +19,7 @@
 			</div>
 			<div class="site-info">
 				<?php do_action( 'emphaino_credits' ); ?>
-				<?php printf( __( 'Powered by %s.', '_s' ), '<a href="' . esc_url( 'http://wordpress.org/' ) . '" title="' . esc_attr__( 'A Semantic Personal Publishing Platform', 'emphaino' ) . '" rel="generator">WordPress</a>' ); ?>
+				<?php printf( __( 'Powered by %s.', 'emphaino' ), '<a href="' . esc_url( 'http://wordpress.org/' ) . '" title="' . esc_attr__( 'A Semantic Personal Publishing Platform', 'emphaino' ) . '" rel="generator">WordPress</a>' ); ?>
 				<?php printf( __( 'Theme %s.', 'emphaino' ), '<a href="' . esc_url( 'http://srinig.com/wordpress/themes/emphaino/' ) . '" title="Emphaino">Emphaino</a>' ); ?>
 			</div><!-- .site-info -->
 		</div> <!-- #bottom-bar -->
