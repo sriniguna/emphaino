@@ -5,7 +5,7 @@ Changelog
 2013-09-02: Version 1.2.3
 -------------------------
 
-* Added localization in Turkish language.
+* Added localization in Dutch and Turkish languages.
 * Minor fixes
 
 
