@@ -9,6 +9,7 @@ Translation credits
 | `fr_FR`  | French                 | [Lumière de Lune](http://www.lumieredelune.com/) |
 | `nl_NL`  | Dutch                  | Rob Meerwijk          |
 | `pl_PL`  | Polish                 | Katarzyna Matylla     |
+| `tr_TR`  | Turkish                | Ozan Çağlayan         |
 
 
 Translating the Theme
