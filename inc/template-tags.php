@@ -105,7 +105,14 @@ function emphaino_comment( $comment, $args, $depth ) {
 
 			<div class="comment-content"><?php comment_text(); ?></div>
 
-			<div class="reply icon-reply"><?php comment_reply_link( array_merge( $args, array( 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ); ?></div><!-- .reply -->
+			<?php
+				comment_reply_link( array_merge( $args, array(
+					'depth' => $depth,
+					'max_depth' => $args['max_depth'],
+					'before' => '<div class="reply icon-reply">',
+					'after' => '</div>',
+				) ) );
+			?>
 		</article><!-- #comment-## -->
 
 	<?php
