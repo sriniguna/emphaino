@@ -6,6 +6,7 @@ Translation credits
 
 | Code     | Language               | Translator            |
 | -------- | ---------------------- | --------------------- |
+| `de_DE`  | German                 | [Andres Imhof](http://www.kudaba.de/) |
 | `es_ES`  | Spanish                | Alfred                |
 | `fr_FR`  | French                 | [Lumière de Lune](http://www.lumieredelune.com/) |
 | `nl_NL`  | Dutch                  | Rob Meerwijk          |
