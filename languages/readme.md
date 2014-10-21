@@ -11,6 +11,7 @@ Translation credits
 | `fr_FR`  | French                 | [Lumière de Lune](http://www.lumieredelune.com/) |
 | `nl_NL`  | Dutch                  | Rob Meerwijk          |
 | `pl_PL`  | Polish                 | Katarzyna Matylla     |
+| `ru_RU`  | Russian                | Евгений Веснин (Evgeniy Vesnin) |
 | `tr_TR`  | Turkish                | Ozan Çağlayan         |
 
 
