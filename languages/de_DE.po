@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Emphaino 1.2\n"
 "Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
 "POT-Creation-Date: 2013-06-06 10:20+0530\n"
-"PO-Revision-Date: 2014-10-20 19:47+0100\n"
+"PO-Revision-Date: 2014-10-21 19:11+0100\n"
 "Last-Translator: Andres Imhof <andres.imhof@kudaba.de>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "Seiten:"
 
 #: content-single.php:29 content-single.php:39
 msgid ", "
-msgstr ","
+msgstr ", "
 
 #: content-single.php:33
 #, php-format
@@ -92,11 +92,11 @@ msgstr ""
 
 #: image.php:77
 msgid "&larr; Previous"
-msgstr "&larr; Vorherige Beitrag"
+msgstr "&larr; Vorheriges"
 
 #: image.php:78
 msgid "Next &rarr;"
-msgstr "Nächster Beitrag &rarr;"
+msgstr "Weiteres &rarr;"
 
 #: image.php:83
 #, php-format
@@ -261,11 +261,11 @@ msgstr "&rarr;"
 
 #: inc/template-tags.php:49
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> Vorherige Beiträge"
+msgstr "<span class=\"meta-nav\">&larr;</span> Vorheriges"
 
 #: inc/template-tags.php:53
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Neuere Beiträge <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Weiteres <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:78
 msgid "Pingback:"
@@ -362,7 +362,7 @@ msgstr "Link-Farbe"
 
 #: inc/customizer.php:174
 msgid "Disable Responsiveness"
-msgstr "Deaktivierung des Responsive-Layout"
+msgstr "Deaktivierung des Responsive-Layouts"
 
 #: inc/customizer.php:189
 msgid "Disable Google Webfonts"
@@ -370,7 +370,7 @@ msgstr "Deaktivierung der Google-Webfonts"
 
 #: inc/customizer.php:203
 msgid "Disable \"Go to Top\" Button"
-msgstr "Deaktivierung des \"Zum Seitenanfang\"-Button"
+msgstr "Deaktivierung des \"Zum Seitenanfang\"-Buttons"
 
 #: inc/customizer.php:217
 msgid "Custom CSS"
