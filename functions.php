@@ -57,33 +57,42 @@ if ( ! function_exists( 'emphaino_setup' ) ) :
  */
 function emphaino_setup() {
 
-	/**
+	/*
 	 * Custom template tags for this theme.
 	 */
 	require get_template_directory() . '/inc/template-tags.php';
 
-	/**
+	/*
 	 * Custom functions that act independently of the theme templates
 	 */
 	require get_template_directory() . '/inc/extras.php';
 
-   /**
-	* Customizer additions
-    */
+	/*
+	 * Customizer additions
+	 */
 	require get_template_directory() . '/inc/customizer.php';
 
-	/**
+	/*
 	 * Make theme available for translation
 	 * Translations can be filed in the /languages/ directory
 	 */
 	load_theme_textdomain( 'emphaino', get_template_directory() . '/languages' );
 
-	/**
+	/*
 	 * Add default posts and comments RSS feed links to head
 	 */
 	add_theme_support( 'automatic-feed-links' );
 
-	/**
+	/*
+	 * Let WordPress manage the document title.
+	 * By adding theme support, we declare that this theme does not use a
+	 * hard-coded <title> tag in the document head, and expect WordPress to
+	 * provide it for us.
+	 */
+	add_theme_support( 'title-tag' );
+
+
+	/*
 	 * Enable support for Post Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' );
@@ -108,7 +117,7 @@ function emphaino_setup() {
 	);
 	add_theme_support( 'custom-background', $custom_background_args );
 
-	/**
+	/*
 	 * This theme uses wp_nav_menu() in one location.
 	 */
 	register_nav_menus( array(
