@@ -42,19 +42,19 @@ function emphaino_customize_register( $wp_customize ) {
 
 	$wp_customize->add_section( 'content_settings', array(
 		'title' => __( 'Content', 'emphaino' ),
-		'priority' => 120,
+		'priority' => 106,
 		)
 	);
 
 	$wp_customize->add_section( 'widget_area_settings', array(
 		'title' => __( 'Widget Area', 'emphaino' ),
-		'priority' => 121,
+		'priority' => 108,
 		)
 	);
 
 	$wp_customize->add_section( 'footer_settings', array(
 		'title' => __( 'Footer', 'emphaino' ),
-		'priority' => 122,
+		'priority' => 120,
 		)
 	);
 
@@ -225,7 +225,8 @@ function emphaino_customize_register( $wp_customize ) {
 		'settings' => 'custom_css',
 	) ) );
 
-	/* Redifining priorities of a couple of default sections */
+	/* Redifining priorities of a some of the default sections */
+	$wp_customize->get_section( 'static_front_page' )->priority = 105;
 	$wp_customize->get_section( 'background_image' )->priority = 150;
 	$wp_customize->get_section( 'colors' )->priority = 151;
 
