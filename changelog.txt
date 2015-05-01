@@ -2,12 +2,22 @@ Changelog
 =========
 
 
+2015-05-01: Version 1.2.4
+-------------------------
+
+* Added localization in Spanish, German and Russian languages
+* Removed title tag from header.php and added theme support for 'title-tag'
+* Sanitization of customizer options
+* Added styles for .screen-reader-text
+* Screenshot updated to 880x660px image
+* Other minor changes, fixes and improvements
+
+
 2013-09-02: Version 1.2.3
 -------------------------
 
 * Added localization in Dutch and Turkish languages.
 * Minor fixes
-
 
 
 2013-06-19: Version 1.2.2
@@ -16,12 +26,10 @@ Changelog
 * Added localization in Polish language.
 
 
-
 2013-06-10: Version 1.2.1
 -------------------------
 
 * Fixed error in the sidebar option in theme customizer.
-
 
 
 2013-06-07: Version 1.2
