@@ -5,66 +5,66 @@
  * @since Emphaino 1.0
  */
 #page {
-  width: 940px;
-  width: 94rem;
+	width: 940px;
+	width: 94rem;
 }
 
 .js #dynamic-grid {
-  margin: -10px -10px 20px;
-  margin: -1rem -1rem 2rem;
+	margin: -10px -10px 20px;
+	margin: -1rem -1rem 2rem;
 }
 .js #dynamic-grid .hentry {
-  float: left;
-  width: 280px;
-  width: 28rem;
-  margin: 10px;
-  margin: 1rem;
-  padding: 10px;
-  padding: 1rem;
+	float: left;
+	width: 280px;
+	width: 28rem;
+	margin: 10px;
+	margin: 1rem;
+	padding: 10px;
+	padding: 1rem;
 }
 .js #dynamic-grid .hentry .entry-header {
-  text-align: left;
+	text-align: left;
 }
 
 body {
-  padding: 0 20px;
-  padding: 0 2rem;
+	padding: 0 20px;
+	padding: 0 2rem;
 }
 
 .site-header .header-main {
-  padding: 30px 20px 32px;
-  padding: 3rem 2rem 3.2rem;
+	padding: 30px 20px 32px;
+	padding: 3rem 2rem 3.2rem;
 }
 .site-header .site-title {
-  font-size: 40px;
-  font-size: 4rem;
+	font-size: 40px;
+	font-size: 4rem;
 }
 .site-header .site-description {
-  font-size: 14px;
-  font-size: 1.4rem;
+	font-size: 14px;
+	font-size: 1.4rem;
 }
 
 .has-logo-image .site-header .header-main {
-  padding: 30px 20px;
-  padding: 3rem 2rem;
+	padding: 30px 20px;
+	padding: 3rem 2rem;
 }
 .has-logo-image .site-header .header-main img {
-  max-height: 80px;
-  max-height: 8rem;
-  width: auto;
+	max-height: 80px;
+	max-height: 8rem;
+	width: auto;
 }
 
 .custom-header.no-logo-image.header-text-hidden .site-header .header-main {
-  min-height: 78px;
-  min-height: 7.8rem;
+	min-height: 78px;
+	min-height: 7.8rem;
 }
 
 .page-header,
 .hentry,
 .comments-area,
 .post-navigation {
-  padding: 20px;
-  padding: 2rem;
+	padding: 20px;
+	padding: 2rem;
 }
 
 .single .entry-title,
@@ -73,8 +73,8 @@ body.page .entry-title,
 .one-col-full-posts .entry-title,
 .not-found .entry-title,
 .no-js .hentry .entry-title {
-  font-size: 27px;
-  font-size: 2.7rem;
+	font-size: 27px;
+	font-size: 2.7rem;
 }
 .single .entry-content,
 .single .entry-summary,
@@ -106,8 +106,8 @@ body.page .pingback,
 .no-js .hentry .comment-content,
 .no-js .hentry .comments-area,
 .no-js .hentry .pingback {
-  font-size: 14px;
-  font-size: 1.4rem;
+	font-size: 14px;
+	font-size: 1.4rem;
 }
 .single .entry-content h1,
 .single .entry-summary h1,
@@ -139,8 +139,8 @@ body.page .pingback h1,
 .no-js .hentry .comment-content h1,
 .no-js .hentry .comments-area h1,
 .no-js .hentry .pingback h1 {
-  font-size: 24px;
-  font-size: 2.4rem;
+	font-size: 24px;
+	font-size: 2.4rem;
 }
 .single .entry-content h2,
 .single .entry-summary h2,
@@ -172,8 +172,8 @@ body.page .pingback h2,
 .no-js .hentry .comment-content h2,
 .no-js .hentry .comments-area h2,
 .no-js .hentry .pingback h2 {
-  font-size: 22px;
-  font-size: 2.2rem;
+	font-size: 22px;
+	font-size: 2.2rem;
 }
 .single .entry-content h3,
 .single .entry-summary h3,
@@ -205,8 +205,8 @@ body.page .pingback h3,
 .no-js .hentry .comment-content h3,
 .no-js .hentry .comments-area h3,
 .no-js .hentry .pingback h3 {
-  font-size: 18px;
-  font-size: 1.8rem;
+	font-size: 18px;
+	font-size: 1.8rem;
 }
 .single .entry-content h4,
 .single .entry-summary h4,
@@ -238,109 +238,109 @@ body.page .pingback h4,
 .no-js .hentry .comment-content h4,
 .no-js .hentry .comments-area h4,
 .no-js .hentry .pingback h4 {
-  font-size: 14px;
-  font-size: 1.4rem;
+	font-size: 14px;
+	font-size: 1.4rem;
 }
 
 .wp-post-image.attachment-post-thumbnail {
-  width: 150px;
-  width: 15rem;
+	width: 150px;
+	width: 15rem;
 }
 
 .wp-caption-text, .entry-attachment .entry-caption p {
-  font-size: 0.8em;
+	font-size: 0.8em;
 }
 
 .comments-title {
-  font-size: 22px;
-  font-size: 2.2rem;
+	font-size: 22px;
+	font-size: 2.2rem;
 }
 
 #reply-title {
-  font-size: 20px;
-  font-size: 2rem;
+	font-size: 20px;
+	font-size: 2rem;
 }
 
 ol.commentlist ul.children {
-  margin-left: 40px;
-  margin-left: 4rem;
+	margin-left: 40px;
+	margin-left: 4rem;
 }
 ol.commentlist ul.children > li:before {
-  font-size: 2.4rem;
-  left: -3.6rem;
+	font-size: 2.4rem;
+	left: -3.6rem;
 }
 
 .pingback {
-  margin: 0 0 20px;
-  margin: 0 0 2rem;
+	margin: 0 0 20px;
+	margin: 0 0 2rem;
 }
 .pingback p:before {
-  font-size: 16px;
-  font-size: 1.6rem;
+	font-size: 16px;
+	font-size: 1.6rem;
 }
 
 article.comment {
-  margin: 0 0 20px;
-  margin: 0 0 2rem;
-  padding-left: 100px;
-  padding-left: 10rem;
-  min-height: 80px;
-  min-height: 8rem;
+	margin: 0 0 20px;
+	margin: 0 0 2rem;
+	padding-left: 100px;
+	padding-left: 10rem;
+	min-height: 80px;
+	min-height: 8rem;
 }
 article.comment footer {
-  padding: 0 0 3px;
-  padding: 0 0 0.3rem;
+	padding: 0 0 3px;
+	padding: 0 0 0.3rem;
 }
 article.comment footer em {
-  left: 100px;
-  left: 10rem;
+	left: 100px;
+	left: 10rem;
 }
 
 .avatar {
-  width: 80px;
-  width: 8rem;
-  position: absolute;
-  top: 10px;
-  top: 1rem;
-  left: 10px;
-  left: 1rem;
-  background: #f8f8f8;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
-  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+	width: 80px;
+	width: 8rem;
+	position: absolute;
+	top: 10px;
+	top: 1rem;
+	left: 10px;
+	left: 1rem;
+	background: #f8f8f8;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.2rem;
 }
 
 .comment-author cite {
-  position: static;
-  font-size: 16px;
-  font-size: 1.6rem;
+	position: static;
+	font-size: 16px;
+	font-size: 1.6rem;
 }
 
 .comment-meta {
-  float: right;
-  left: 0;
-  top: -20px;
-  top: -2rem;
-  font-size: 12px;
-  font-size: 1.2rem;
+	float: right;
+	left: 0;
+	top: -20px;
+	top: -2rem;
+	font-size: 12px;
+	font-size: 1.2rem;
 }
 
 .no-comment-avatars article.comment {
-  padding-left: 10px;
-  padding-left: 1rem;
+	padding-left: 10px;
+	padding-left: 1rem;
 }
 .no-comment-avatars .comment-meta {
-  position: relative;
+	position: relative;
 }
 
 #respond {
-  font-size: 14px;
-  font-size: 1.4rem;
+	font-size: 14px;
+	font-size: 1.4rem;
 }
 
 .content-area {
-  max-width: 620px;
-  max-width: 62rem;
+	max-width: 620px;
+	max-width: 62rem;
 }
 
 .single.no-sidebar .hentry,
@@ -353,8 +353,8 @@ body.page.no-sidebar .comments-area,
 .one-col-full-posts.no-sidebar .comments-area,
 .no-js.no-sidebar .hentry,
 .no-js.no-sidebar .comments-area {
-  padding: 40px;
-  padding: 4rem;
+	padding: 40px;
+	padding: 4rem;
 }
 .single.no-sidebar .entry-header,
 .single.no-sidebar .entry-content,
@@ -401,18 +401,18 @@ body.page.no-sidebar #respond,
 .no-js.no-sidebar .comment-navigation,
 .no-js.no-sidebar ol.commentlist,
 .no-js.no-sidebar #respond {
-  max-width: 660px;
-  max-width: 66rem;
-  margin-right: auto;
-  margin-left: auto;
+	max-width: 660px;
+	max-width: 66rem;
+	margin-right: auto;
+	margin-left: auto;
 }
 .single.no-sidebar .entry-title,
 body.page.no-sidebar .entry-title,
 .one-col-excerpts.no-sidebar .entry-title,
 .one-col-full-posts.no-sidebar .entry-title,
 .no-js.no-sidebar .entry-title {
-  font-size: 30px;
-  font-size: 3rem;
+	font-size: 30px;
+	font-size: 3rem;
 }
 .single.no-sidebar .entry-content,
 .single.no-sidebar .entry-summary,
@@ -424,8 +424,8 @@ body.page.no-sidebar .entry-summary,
 .one-col-full-posts.no-sidebar .entry-summary,
 .no-js.no-sidebar .entry-content,
 .no-js.no-sidebar .entry-summary {
-  font-size: 16px;
-  font-size: 1.6rem;
+	font-size: 16px;
+	font-size: 1.6rem;
 }
 .single.no-sidebar .pingback, .single.no-sidebar article.comment,
 body.page.no-sidebar .pingback,
@@ -436,60 +436,60 @@ body.page.no-sidebar article.comment,
 .one-col-full-posts.no-sidebar article.comment,
 .no-js.no-sidebar .pingback,
 .no-js.no-sidebar article.comment {
-  margin: 0 0 30px;
-  margin: 0 0 3rem;
+	margin: 0 0 30px;
+	margin: 0 0 3rem;
 }
 .single.has-sidebar .site-main,
 body.page.has-sidebar .site-main,
 .one-col-excerpts.has-sidebar .site-main,
 .one-col-full-posts.has-sidebar .site-main,
 .no-js.has-sidebar .site-main {
-  padding: 0 240px 0 0;
-  padding: 0 24rem 0 0;
+	padding: 0 240px 0 0;
+	padding: 0 24rem 0 0;
 }
 .single.has-sidebar .content-area,
 body.page.has-sidebar .content-area,
 .one-col-excerpts.has-sidebar .content-area,
 .one-col-full-posts.has-sidebar .content-area,
 .no-js.has-sidebar .content-area {
-  float: left;
-  margin-right: -100%;
-  width: 100%;
+	float: left;
+	margin-right: -100%;
+	width: 100%;
 }
 .single.has-sidebar .widget-area.sidebar,
 body.page.has-sidebar .widget-area.sidebar,
 .one-col-excerpts.has-sidebar .widget-area.sidebar,
 .one-col-full-posts.has-sidebar .widget-area.sidebar,
 .no-js.has-sidebar .widget-area.sidebar {
-  float: right;
-  margin-right: -240px;
-  margin-right: -24rem;
-  width: 220px;
-  width: 22rem;
+	float: right;
+	margin-right: -240px;
+	margin-right: -24rem;
+	width: 220px;
+	width: 22rem;
 }
 .single.has-sidebar #the-sidebar,
 body.page.has-sidebar #the-sidebar,
 .one-col-excerpts.has-sidebar #the-sidebar,
 .one-col-full-posts.has-sidebar #the-sidebar,
 .no-js.has-sidebar #the-sidebar {
-  width: 220px;
-  width: 22rem;
+	width: 220px;
+	width: 22rem;
 }
 .single.has-sidebar .entry-title,
 body.page.has-sidebar .entry-title,
 .one-col-excerpts.has-sidebar .entry-title,
 .one-col-full-posts.has-sidebar .entry-title,
 .no-js.has-sidebar .entry-title {
-  text-align: left;
+	text-align: left;
 }
 .single.has-sidebar .comment-meta,
 body.page.has-sidebar .comment-meta,
 .one-col-excerpts.has-sidebar .comment-meta,
 .one-col-full-posts.has-sidebar .comment-meta,
 .no-js.has-sidebar .comment-meta {
-  float: none;
-  position: relative;
-  top: 0;
+	float: none;
+	position: relative;
+	top: 0;
 }
 
 .single.has-sidebar .entry-title,
@@ -497,8 +497,8 @@ body.page.has-sidebar .entry-title,
 .one-col-excerpts.has-sidebar .entry-title,
 .one-col-full-posts.has-sidebar .entry-title,
 .no-js.has-sidebar .entry-title {
-  font-size: 30px;
-  font-size: 3rem;
+	font-size: 30px;
+	font-size: 3rem;
 }
 .single.has-sidebar .entry-content,
 .single.has-sidebar .entry-summary,
@@ -510,33 +510,33 @@ body.page.has-sidebar .entry-summary,
 .one-col-full-posts.has-sidebar .entry-summary,
 .no-js.has-sidebar .entry-content,
 .no-js.has-sidebar .entry-summary {
-  font-size: 16px;
-  font-size: 1.6rem;
+	font-size: 16px;
+	font-size: 1.6rem;
 }
 
 .content-area {
-  max-width: 940px;
-  max-width: 94rem;
+	max-width: 940px;
+	max-width: 94rem;
 }
 
 .single.has-sidebar .comment-meta, body.page.has-sidebar .comment-meta {
-  float: right;
-  top: -20px;
-  top: -2rem;
+	float: right;
+	top: -20px;
+	top: -2rem;
 }
 
 #footer-widgets {
-  width: 940px;
-  width: 94rem;
+	width: 940px;
+	width: 94rem;
 }
 
 #bottom-bar .footer-text {
-  width: 48%;
-  float: left;
-  text-align: left;
+	width: 48%;
+	float: left;
+	text-align: left;
 }
 #bottom-bar .site-info {
-  width: 48%;
-  float: right;
-  text-align: right;
+	width: 48%;
+	float: right;
+	text-align: right;
 }
