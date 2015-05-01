@@ -71,6 +71,7 @@ function emphaino_customize_register( $wp_customize ) {
 	$wp_customize->add_setting( 'logo_image', array(
 		'default' => emphaino_default_settings( 'logo_image' ),
 		'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'esc_url_raw',
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'emphaino_logo_image', array(
@@ -86,6 +87,7 @@ function emphaino_customize_register( $wp_customize ) {
 	$wp_customize->add_setting( 'posts_layout', array(
 		'default' => emphaino_default_settings( 'posts_layout' ),
 		'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'emphaino_sanitize_posts_layout',
 	) );
 
 
@@ -94,11 +96,7 @@ function emphaino_customize_register( $wp_customize ) {
 		'section'    => 'content_settings',
 		'settings'   => 'posts_layout',
 		'type'       => 'radio',
-		'choices'    => array(
-			'dynamic_grid_excerpts' => __('Dynamic Grid layout with excerpts', 'emphaino'),
-			'one_col_excerpts' => __('One Column layout with excerpts', 'emphaino'),
-			'one_col_full_posts' => __('One Column layout with full posts', 'emphaino'),
-		),
+		'choices'    => emphaino_posts_layout_options(),
 	) );
 
 
@@ -107,6 +105,7 @@ function emphaino_customize_register( $wp_customize ) {
 	$wp_customize->add_setting( 'full_posts_feat_img', array(
 		'default' => emphaino_default_settings( 'full_posts_feat_img' ),
 		'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'emphaino_sanitize_checkbox',
 	) );
 
 	$wp_customize->add_control( 'emphaino_full_posts_feat_img', array(
@@ -122,6 +121,7 @@ function emphaino_customize_register( $wp_customize ) {
 	$wp_customize->add_setting( 'sidebar_in_posts_index', array(
 		'default' => emphaino_default_settings( 'sidebar_in_posts_index' ),
 		'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'emphaino_sanitize_checkbox',
 	) );
 
 
@@ -139,6 +139,7 @@ function emphaino_customize_register( $wp_customize ) {
 		'default' => emphaino_default_settings( 'footer_text' ),
 		'capability' => 'edit_theme_options',
 		'transport' => 'postMessage',
+		'sanitize_callback' => 'esc_textarea',
 	) );
 
 	$wp_customize->add_control( new Emphaino_Customize_Textarea_Control( $wp_customize, 'emphaino_footer_text', array(
@@ -154,12 +155,13 @@ function emphaino_customize_register( $wp_customize ) {
 		'default' => emphaino_default_settings( 'link_color' ),
 		'capability' => 'edit_theme_options',
 		'transport' => 'postMessage',
+		'sanitize_callback' => 'sanitize_hex_color',
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'emphaino_link_color', array(
 	    'label'   => __( 'Link Color', 'emphaino' ),
 	    'section' => 'colors',
-	    'settings'   => 'link_color',
+	    'settings' => 'link_color',
 	) ) );
 
 
@@ -168,6 +170,7 @@ function emphaino_customize_register( $wp_customize ) {
 	$wp_customize->add_setting( 'non_responsive', array(
 		'default' => emphaino_default_settings( 'non_responsive' ),
 		'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'emphaino_sanitize_checkbox',
 	) );
 
 	$wp_customize->add_control( 'emphaino_non_responsive', array(
@@ -183,6 +186,7 @@ function emphaino_customize_register( $wp_customize ) {
 	$wp_customize->add_setting( 'disable_webfonts', array(
 		'default' => emphaino_default_settings( 'disable_webfonts' ),
 		'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'emphaino_sanitize_checkbox',
 	) );
 
 	$wp_customize->add_control( 'emphaino_disable_webfonts', array(
@@ -197,6 +201,7 @@ function emphaino_customize_register( $wp_customize ) {
 	$wp_customize->add_setting( 'disable_backtotop', array(
 		'default' => emphaino_default_settings( 'disable_backtotop' ),
 		'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'emphaino_sanitize_checkbox',
 	) );
 
 	$wp_customize->add_control( 'emphaino_disable_backtotop', array(
@@ -211,6 +216,7 @@ function emphaino_customize_register( $wp_customize ) {
 	$wp_customize->add_setting( 'custom_css', array(
 		'default' => emphaino_default_settings( 'custom_css' ),
 		'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'esc_textarea',
 	) );
 
 	$wp_customize->add_control( new Emphaino_Customize_Textarea_Control( $wp_customize, 'emphaino_custom_css', array(
@@ -241,3 +247,40 @@ function emphaino_customize_preview_js() {
 	wp_enqueue_script( 'emphaino_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), wp_get_theme()->Version, true );
 }
 add_action( 'customize_preview_init', 'emphaino_customize_preview_js' );
+
+
+/**
+ * All possible optinos for the posts layout setting
+ *
+ * @since Emphaino 1.2.4
+ */
+function emphaino_posts_layout_options() {
+	return array(
+			'dynamic_grid_excerpts' => __('Dynamic Grid layout with excerpts', 'emphaino'),
+			'one_col_excerpts' => __('One Column layout with excerpts', 'emphaino'),
+			'one_col_full_posts' => __('One Column layout with full posts', 'emphaino'),
+		);
+}
+
+
+/**
+ * Santize value for the posts layout setting
+ *
+ * @since Emphaino 1.2.4
+ */
+function emphaino_sanitize_posts_layout( $value ) {
+	if( $value && array_key_exists( $value, emphaino_posts_layout_options() ) ) {
+		return $value;
+	}
+	return emphaino_default_settings( 'posts_layout' );
+}
+
+
+/**
+ * Sanitize checkbox value
+ *
+ * @since Emphaino 1.2.4
+ */
+function emphaino_sanitize_checkbox( $value ) {
+	return $value;
+}
