@@ -161,7 +161,7 @@ function emphaino_widgets_init() {
 	) );
 	register_sidebar( array(
 		'name' => __( 'Sidebar', 'emphaino' ),
-		'description' => (get_theme_mod('sidebar_in_posts_index') == 'on')?__( 'Appears in blog home, archives, single posts and pages.', 'emphanio' ):__( 'Appears in single posts and pages.', 'emphaino' ),
+		'description' => (get_theme_mod('sidebar_in_posts_index') == 'on')?__( 'Appears in blog home, archives, single posts and pages.', 'emphaino' ):__( 'Appears in single posts and pages.', 'emphaino' ),
 		'id' => 'the-sidebar',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => '</aside>',
